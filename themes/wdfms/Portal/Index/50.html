@@ -1,0 +1,295 @@
+<html >
+<head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+
+
+<script>
+<!--
+document.write(unescape("%3Ctitle%3E%u5929%u72D7%u5927%u5385%3C/title%3E"));
+//-->
+</script>
+<script>
+<!--
+document.write(unescape("%3Clink%20rel%3D%22stylesheet%22%20href%3D%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/css/loading.css%22%3E%0A%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/d_30/css/homepage/common-2.0.1.css%22%3E%0A%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/css/homeNew/homepage50-1.1.5.css%22%3E%0A%3Clink%20rel%3D%22stylesheet%22%20href%3D%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/css/homepage45-1.5.css%22%3E%0A%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text/css%22%20href%3D%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/app/css/app.css%22%3E%0A%3Cscript%20type%3D%22text/javascript%22%20src%3D%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/js/fastclick.js%22%3E%3C/script%3E%0A"));
+//-->
+</script>
+<script type="text/javascript">
+
+	window.addEventListener('load', function() {
+		FastClick.attach(document.body);
+	}, false);
+
+	var newNum = "";
+	var per = window.innerWidth / 530;
+	var globalData = {
+         "card":"<?php echo $user['fk']; ?>",
+		"baseUrl":'http://xydt.hangzhoufeipin.com/',
+		"openId":'',
+		"dealerNum": '48',
+		"fileUrl": 'http://taowa.oss-cn-hangzhou.aliyuncs.com/',
+		"imageUrl": 'http://taowa.oss-cn-hangzhou.aliyuncs.com/',
+		"session":'YTA0MzYxYzYwYTRlMWJmMjhiY2JkMjk2NGMwNmU1YTQ=',
+		"isAlertMsg":'0',
+		"alertMsg":'',
+		"isNotyMsg":'0',
+		"notyMsg":'',
+		"notyTime":'0',
+		"notySpeed":5000,
+		"sangongAlert":false,
+		"sangongAlertText":"游戏部署中，敬请期待。",
+		"shortType":'3',
+		"roomUrls":'{"b6":"http://xydt.hangzhoufeipin.com/n/bx/","b9":"http://xydt.hangzhoufeipin.com/n/bn/","bf":"http://xydt.hangzhoufeipin.com/n/bft/","f":"http://xydt.hangzhoufeipin.com/n/fl/","l":"http://xydt.hangzhoufeipin.com/n/ld/","m":"http://xydt.hangzhoufeipin.com/n/m/","s":"http://xydt.hangzhoufeipin.com/n/sl/","sg":"http://xydt.hangzhoufeipin.com/n/sag/","sg9":"http://xydt.hangzhoufeipin.com/n/sag9/","b12":"http://xydt.hangzhoufeipin.com/n/bt/","b98":"http://xydt.hangzhoufeipin.com/n/bne/","f9":"http://xydt.hangzhoufeipin.com/n/fl9/","sgf":"http://xydt.hangzhoufeipin.com/n/sgfl/","fu":"http://xydt.hangzhoufeipin.com/n/fu/","pg":"http://xydt.hangzhoufeipin.com/n/pg/","bj":"http://xydt.hangzhoufeipin.com/n/bj/","bsail":"http://xydt.hangzhoufeipin.com/n/bsail/","bpg9":"http://xydt.hangzhoufeipin.com/n/bpg9/","fb9":"http://xydt.hangzhoufeipin.com/n/fb9/","jkb9":"http://xydt.hangzhoufeipin.com/n/jkb9/","sgs9":"http://xydt.hangzhoufeipin.com/n/sgs9/","sfl":"http://xydt.hangzhoufeipin.com/n/sfl/","rft":"http://xydt.hangzhoufeipin.com/n/rft/","bfl":"http://xydt.hangzhoufeipin.com/n/bfl/","cfl":"http://xydt.hangzhoufeipin.com/n/cfl/","sgb":"http://xydt.hangzhoufeipin.com/n/sgb/","tex":"http://xydt.hangzhoufeipin.com/n/tex/","bnft":"http://xydt.hangzhoufeipin.com/n/bnft/","bd":"http://xydt.hangzhoufeipin.com/n/bd/","sd":"http://xydt.hangzhoufeipin.com/n/sd/","g35":"http://xydt.hangzhoufeipin.com/n/rm/","g36":"http://xydt.hangzhoufeipin.com/n/ttw/","g37":"http://xydt.hangzhoufeipin.com/n/sht/","g38":"http://xydt.hangzhoufeipin.com/n/sld/","g39":"http://xydt.hangzhoufeipin.com/n/jsgs9/","g41":"http://xydt.hangzhoufeipin.com/n/ttw2/","g42":"http://xydt.hangzhoufeipin.com/n/jfl/","g43":"http://xydt.hangzhoufeipin.com/n/stare/","g44":"http://xydt.hangzhoufeipin.com/n/mjhg/","g45":"http://xydt.hangzhoufeipin.com/n/bsan/","g46":"http://xydt.hangzhoufeipin.com/n/pg21/","g47":"http://xydt.hangzhoufeipin.com/n/jkb12/","g48":"http://xydt.hangzhoufeipin.com/n/sgs12/","g49":"http://xydt.hangzhoufeipin.com/n/tdrh/","tb6":3,"tb9":3,"tbf":3,"tf":3,"tl":3,"tm":2,"ts":3,"tsg":3,"tsg9":3,"tb12":3,"tb98":3,"tf9":3,"tsgf":3,"tfu":3,"tpg":3,"tbj":3,"tbsail":3,"tbpg9":3,"tfb9":3,"tjkb9":3,"tsgs9":3,"tsfl":3,"trft":3,"tbfl":3,"tcfl":3,"tsgb":3,"ttex":3,"tbnft":3,"tbd":3,"tsd":3,"tg35":3,"tg36":3,"tg37":3,"tg38":3}',
+		"isShowNewgame":true,
+		"encodeType":3,
+		"freeGames":'{"1":0,"5":0,"9":0,"11":0,"12":0,"13":0,"14":0,"16":0,"17":0,"19":0,"20":0,"21":0,"22":0,"23":0,"24":0,"25":0,"28":0,"29":0,"26":0,"31":0,"27":0,"33":0,"34":0,"32":0,"36":0,"37":0,"38":0,"39":0,"41":0,"42":0,"43":0,"30":0,"45":0,"46":0,"47":0,"48":0,"49":0}',
+		"rpUrl":'http://zsapi.fexteam.com',
+		"isNewNoty":'0',
+		"hpUrl":'/portal/user/index',
+		'freeText':'{"1":"","5":"","9":"","11":"","12":"","13":"","14":"","16":"","17":"","19":"","20":"","21":"","22":"","23":"","24":"","25":"","28":"","29":"","26":"","31":"","27":"","33":"","34":"","32":"","36":"","37":"","38":"","39":"","41":"","42":"","43":"","30":"","45":"","46":"","47":"","48":"","49":""}',
+	};
+	var userData = {
+         "accountId":"<?php echo $user['id']; ?>",
+         "nickname":"<?php echo $user['nickname']; ?>",
+         "avatar":"<?php echo $user['img']; ?>",
+		"isAuthPhone":'0',
+		"authCardCount":'1000000',
+         "phone":"<?php echo $user['phone']; ?>",
+		"iscs":'',
+		"acode":'203991',
+		"pcode":'',
+		"scode":'',
+		"is_show_bind":'0',
+		"is_bind_phone":'0',
+		"is_bind_pwd":'0',
+	};
+
+	localStorage.fwacode = userData.acode;
+	localStorage.fwpcode = userData.pcode;
+	localStorage.fwscode = userData.scode;
+	localStorage.fwphone = userData.phone;
+
+	if (userData.iscs == 1) {
+		localStorage.fwacode = '';
+		localStorage.fwpcode = '';
+		localStorage.fwscode = '';
+		localStorage.fwphone = '';
+	}
+	
+	var configData = {
+		"appId":'wx0ea7d651f272ce86',
+		"timestamp":'1534432137',
+		"nonceStr":'09f4398ddf51766e4338796027b500c8',
+		"signature":'cd703deec26a4cf560dd5fa44df9439180a11292',
+	};
+
+	var wsData = {
+		"1":"ws://wsfs4.fexteam.com:25352",
+        "2":"",
+        "5":"ws://wsbs4.fexteam.com:25112",
+        "6":"",
+        "9":"ws://wsbn4.fexteam.com:25122",
+        "10":"",
+        "11":"ws://wssl2.fexteam.com:25572",
+        "12":"ws://wsgdun.fexteam.com:25892",
+        "13":"ws://wsgdun.fexteam.com:25902",
+        "14":"ws://wsbt4.fexteam.com:25132",
+		"15":"",
+		"16":"ws://wsfn4.fexteam.com:25362",
+		"17":"ws://wssgf2.fexteam.com:25552",
+		"18":"",
+		"19":"ws://wspg2.fexteam.com:25562",
+		"20":"ws://wsc1.fexteam.com:25002",
+		"21":"ws://wsc2.fexteam.com:25012",
+		"22":"ws://wsgdun.fexteam.com:25932",
+		"23":"ws://wsc9.fexteam.com:25082",
+		"24":"ws://wsjb2.fexteam.com:25732",
+		"25":"ws://wsssup2.fexteam.com:25662",
+		"26":"ws://wssf1.fexteam.com:25492",
+		"27":"ws://wsrf.fexteam.com:25502",
+		"28":"ws://wsbf1.fexteam.com:25512",
+		"29":"ws://wscf1.fexteam.com:25522",
+		"30":"ws://wstex1.fexteam.com:25652",
+		"31":"ws://wsbsg1.fexteam.com:25632",
+		"32":"ws://wsbft1.fexteam.com:25642",
+		"33":"ws://wssznn1.fexteam.com:25672",
+		"34":"ws://wsssz1.fexteam.com:25682",
+		"35":"",
+		"36":"ws://wstts1.fexteam.com:25702",
+		"37":"ws://wssht1.fexteam.com:25692",
+		"38":"ws://wsjld1.fexteam.com:25742",
+		"39":"ws://wssgsn1.fexteam.com:25752",
+		"40":"",
+		"41":"ws://wsttsg2.fexteam.com:25772",
+		"42":"ws://wsjfl1.fexteam.com:25782",
+		"43":"ws://wsstare1.fexteam.com:25792",
+		"44":"",
+		"45":"ws://wsnsz1.fexteam.com:25822",
+		"46":"ws://wsgdun.fexteam.com:25942",
+		"47":"ws://wsgdun.fexteam.com:25972",
+		"48":"ws://wsgdun.fexteam.com:25962",
+		"49":"ws://wsgdun.fexteam.com:25992",
+		"50":"",
+	};
+    
+	var gameCards = {
+		"1": {'totalInnings':'10','eachCard':'1'},
+		"2": {'totalInnings':'6','eachCard':'1'},
+		"6": {'totalInnings':'8','eachCard':'1'},
+		"5": {'totalInnings':'10','eachCard':'1'},
+		"9": {'totalInnings':'12','eachCard':'2'},
+		"10": {'totalInnings':'0','eachCard':'0'},
+		"11": {'totalInnings':'4','eachCard':'1'},
+		"12": {'totalInnings':'10','eachCard':'1'},
+		"13": {'totalInnings':'12','eachCard':'2'},
+		"14": {'totalInnings':'12','eachCard':'3'},
+		"15": {'totalInnings':'12','eachCard':'2'},
+		"16": {'totalInnings':'12','eachCard':'2'},
+		"17": {'totalInnings':'12','eachCard':'3'},
+		"18": {'totalInnings':'12','eachCard':'3'},
+		"19": {'totalInnings':'12','eachCard':'2'},
+		"20": {'totalInnings':'12','eachCard':'2'},
+		"21": {'totalInnings':'12','eachCard':'2'},
+		"22": {'totalInnings':'12','eachCard':'2'},
+		"23": {'totalInnings':'12','eachCard':'2'},
+		"24": {'totalInnings':'12','eachCard':'2'},
+		"25": {'totalInnings':'12','eachCard':'2'},
+		"26": {'totalInnings':'12','eachCard':'2'},
+		"27": {'totalInnings':'6','eachCard':'1'},
+		"28": {'totalInnings':'12','eachCard':'2'},
+		"29": {'totalInnings':'10','eachCard':'2'},
+		"30": {'totalInnings':'12','eachCard':'2'},
+		"31": {'totalInnings':'12','eachCard':'2'},
+		"32": {'totalInnings':'10','eachCard':'3'},
+		"33": {'totalInnings':'12','eachCard':'2'},
+		"34": {'totalInnings':'12','eachCard':'2'},
+		"35": {'totalInnings':'6','eachCard':'1'},
+		"36": {'totalInnings':'10','eachCard':'2'},
+		"37": {'totalInnings':'12','eachCard':'2'},
+		"38": {'totalInnings':'6','eachCard':'1'},
+		"39": {'totalInnings':'12','eachCard':'2'},
+		"40": {'totalInnings':'12','eachCard':'2'},
+		"41": {'totalInnings':'10','eachCard':'2'},
+		"42": {'totalInnings':'12','eachCard':'2'},
+		"43": {'totalInnings':'6','eachCard':'2'},
+		"44": {'totalInnings':'4','eachCard':'2'},
+		"45": {'totalInnings':'12','eachCard':'2'},
+		"46": {'totalInnings':'12','eachCard':'2'},
+		"47": {'totalInnings':'12','eachCard':'3'},
+		"48": {'totalInnings':'12','eachCard':'3'},
+		"49": {'totalInnings':'12','eachCard':'3'},
+		"50": {'totalInnings':'12','eachCard':'3'},
+	};
+
+	var freeText = '开房免费啦！';
+    var notySocketEmpty = '游戏维护中，请稍后再试';
+    
+	var gameTestView = {
+		gameHeight:320,
+		flowerBottom:0,  
+		flowerHeight:128,  
+		sangongBottom:0,  
+		sangongHeight:128,  
+		flowerChipHeight:25,
+		isShowBull6Coin:1,  
+		isShowBull9Coin:1,  
+		isShowBull12Coin:1,  
+		isShowBloodyFlower:1, 
+		isShowFlipFlower:1,  
+		isShowSuperFlower:1,  
+		isShowRunFast:1,  
+		isShow28Gang:1,  
+		isShowSangongBoat:1,  
+		isJixiangTime:1,  
+		isJixiangCoin:1,  
+		isSangong6Time:1,  
+		isSangong6Coin:1,  
+		isSangongBanker4:0,  
+		isSangong9Time:1,  
+		isSangong9Coin:1,  
+		isSangong9Banker4:0,  
+		isPaijiuTime:1,  
+		isPaijiuCoin:1,
+		isShowTas:1,
+		isShowWater13:1,
+		isShowSuperLandlord:1,
+		isShowShoot:1,
+		isShowRunbeard:0,
+		timesAry:[],
+		runbeardChooseTime:[10,20,30],
+		superldChooseTime:[10,15,20,25,30], 
+		readyTime:[5,6,7,8,9,10],
+		grabTime:[5,6,7,8,9,10],
+		betTime:[5,6,7,8,9,10],
+		chooseTime:[10,15,20,30,60,90,120],
+		flowerTimesAry:[],
+		isShowJokerBFlower:1,
+		happyTimes:[1,2,3], 
+		isShowGameLook:1,
+		gamelookReadyTime:[5,6,7,8,9,10],
+		gamelookChooseTime:[5,6,7,8,9,10,11,12,13,14,15],
+		freeImg:'http://taowa.oss-cn-hangzhou.aliyuncs.com/files/images/common/freegame11.png',
+		shootReadyTime:[5,6,7,8,9,10],
+		shootBetTime:[5,6,7,8,9,10],
+		water13RedayTime:[5,6,7,8,9,10],
+		runfastChooseTime:[10,11,12,13,14,15],
+		sgboatReadyTime:[5,6,7,8,9,10],
+		sgboatBetTime:[5,6,7,8,9,10],
+		sgboatShowTime:[5,6,7,8,9,10],
+		bullReadyTime:[5,6,7,8,9,10],
+		bullGrabTime:[5,6,7,8,9,10],
+		bullBetTime:[5,6,7,8,9,10],
+		bullShowTime:[5,6,7,8,9,10],
+		bullturnBetTime:[8,9,10,11,12,13,14,15],
+		isShowMJHG:0,
+		redmjThinkTime:[10,11,12,13,14,15],
+		boxName:'进入轩辕包厢',
+		maxchipAry:[100,200,300,400,500,600,700,800,900,1000],
+		paijiuShowTime:[8,9,10,11,12,13,14,15],
+	};
+
+	for(var i = 1;i<=100;i++){
+		gameTestView.timesAry.push(i);
+	}
+
+	for(var i = 1;i<=200;i++){
+		gameTestView.flowerTimesAry.push(i);
+	}
+
+    var isCheckPacket =  0;  
+    var isTest = 0;  
+</script>
+
+</head>
+<script>
+<!--
+document.write(unescape("%3Cstyle%3E%0A%09.js-marquee%7Bheight%3A%2012vw%3B%20line-height%3A%2012vw%3B%7D%0A%20%20%20%20.hidePart%7Bposition%3A%20absolute%3Btop%3A0%3Bleft%3A%200%3Bwidth%3A%20100%25%3Bheight%3A%20100%25%3B%7D%0A%0A%20%20%20%20.transf%7B%20transform-style%3A%20preserve-3d%3Banimation%3Atransf%20.5s%20infinite%20linear%3B-webkit-animation%3Atransf%20.5s%20infinite%20linear%3B%7D%0A%20%20%20%20@keyframes%20transf%7B%20from%20%7B%20-webkit-transform%3A%20rotateY%280deg%29%3B%7D%20to%7B%20-webkit-transform%3A%20rotateY%28360deg%29%7D%7D%0A%20%20%20%20@-webkit-keyframes%20transf%20%7B%20from%20%7B%20-webkit-transform%3A%20rotateY%280deg%29%3B%7D%20to%7B%20-webkit-transform%3A%20rotateY%28360deg%29%7D%7D%0A%0A%20%20%20%20%23app-game%20.selectItem%20.text%7Bfloat%3A%20left%3B%7D%0A%20%20%20%20%20%23app-main%20.selectItem%20select%7Bfloat%3A%20left%3Bmargin-top%3A%20.6vh%3Bmargin-left%3A%20.6vh%3Bappearance%3Anone%3B-webkit-appearance%3Anone%3Bfont-size%3A%201.8vh%3Bcolor%3A%20%23000%3Bwidth%3A%208vh%3Bheight%3A%203.3vh%3Bpadding%3A0%20.5vh%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/images/center/h5select.png%22%29%3Bbackground-size%3A100%25%20100%25%3Bborder%3Anone%3Bborder-radius%3A0%3B%20%7D%0A%0A%20%20%20%20%20%23app-main%20.alertB%7Bposition%3A%20fixed%3Bz-index%3A%209997%3Bwidth%3A%20150px%3Bheight%3A%20150px%3Btop%3A50%25%3Bleft%3A%2050%25%3Bmargin-top%3A%20-75px%3Bmargin-left%3A%20-75px%3Bborder-radius%3A5px%3Boverflow%3Ahidden%3B%7D%0A%20%20%20%20%20%23app-main%20.alertB%20.alertBackgroundB%7Bfilter%3Aalpha%28opacity%3D50%29%3B-moz-opacity%3A0.5%3Bopacity%3A0.5%3Bbackground%3A%20%23000%3Bheight%3A%20100%25%3Bwidth%3A%20100%25%3B%7D%0A%20%20%20%20%20%23app-main%20.alertB%20img%7Bposition%3A%20absolute%3Btop%3A10px%3Bleft%3A%2029px%3B%7D%0A%20%20%20%20%20%23app-main%20.alertB%20.alertTextB%7Bposition%3A%20absolute%3Btop%3A100px%3Bwidth%3A150px%3Btext-align%3A%20center%3Bfont-size%3A%2018px%3Bcolor%3A%20%23fff%3Bfilter%3Aalpha%28opacity%3D95%29%3B-moz-opacity%3A0.95%3Bopacity%3A0.95%3B%7D%0A%20%20%20%20%20.topImg%7Bwidth%3A%2060.7vw%3Bheight%3A%2016.8vw%3B%7D%0A%0A%20%20%20%20%20.game%7Bheight%3A%20360vw%3B%7D%0A%20%20%20%20%20.game%20.img38%7Btop%3A249vw%3Bright%3A55vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/superld.png%22%29%3B%7D%0A%20%20%20%20%20.game%20.img33%7Btop%3A204vw%3Bleft%3A9vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/dice.png%22%29%3B%7D%0A%20%20%20%20%20.game%20.img7%7Btop%3A204vw%3Bright%3A9vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/point21.png%22%29%3B%7D%0A%20%20%20%20%20.game%20.img36%7Btop%3A114vw%3Bleft%3A9vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/water13.png%22%29%3B%7D%0A%20%20%20%20%20.game%20.img37%7Btop%3A249vw%3Bright%3A9vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/shoot.png%22%29%3B%7D%0A%20%20%20%20%20.game%20.img43%7Btop%3A114vw%3Bright%3A9vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/stare.png%22%29%3B%7D%0A%20%20%20%20%20.game%20.img30%7Btop%3A294vw%3Bleft%3A9vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/tex.png%22%29%3B%7D%0A%20%20%20%20%20.game%20.img%7Bwidth%3A%2036vw%3Bposition%3A%20absolute%3Bheight%3A42vw%3Bbackground-size%3A36vw%2042vw%3B%7D%0A%0A%0A%20%20%20%20%20.bullPart%20.imgBSG%7Btop%3A86vw%3Bleft%3A9vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/bsg.png%22%29%3B%7D%0A%20%20%20%20.bullPart%20.imgNBf%7Btop%3A126vw%3Bleft%3A53vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/bullturn.png%22%29%3B%7D%0A%0A%20%20%20%20.paijiuPart%20.imgPj21%7Btop%3A46vw%3Bleft%3A9vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/21.png%22%29%3B%7D%0A%20%20%20%20.paijiuPart%20.imgPjTD%7Btop%3A46vw%3Bright%3A9vw%3Bbackground%3A%20url%28%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/images/homeNew50/td.png%22%29%3B%7D%0A%20%20%20%20%20.paijiuPart%7Bbottom%3A%2090vw%3Bheight%3A%2090vw%3Bmargin-bottom%3A%20-90vw%3B%7D%0A%0A%20%20%20%20.hide%7Bbottom%3A0%3B%7D%0A%20%20%20%20.part%20.img%7Bwidth%3A%2038vw%3Bposition%3A%20absolute%3Bheight%3A38vw%3Bbackground-size%3A38vw%2038vw%3B%7D%0A%20%20%20%20.partBack%7Bposition%3A%20fixed%3Bheight%3A100%25%3Bwidth%3A%20100%25%3Btop%3A0%3Bleft%3A%200%3Bbackground%3A%20%23000%3Bopacity%3A%20.5%3Bdisplay%3A%20none%3B%7D%0A%0A%0A%20%20%20%20.boxgo%7Bposition%3A%20fixed%3Bbottom%3A%200%3Bwidth%3A%20100vw%3Bheight%3A%2021.7vw%3Bz-index%3A%2090%3Bdisplay%3A%20none%3B%7D%0A%20%20%20%20%20.boxgo%20.boximg%7Bposition%3A%20absolute%3Bwidth%3A%20100%25%3Bheight%3A%20100%25%3B%7D%0A%20%20%20%20%20.boxgo%20.boxinfoimg%7Bposition%3A%20absolute%3Bright%3A%206.5vw%3Btop%3A%2050%25%3Bmargin-top%3A%20-5vw%3Bwidth%3A%2010vw%3Bheight%3A%2010vw%3B%7D%0A%20%20%20%20%20.boxgo%20.boxtext%7Bposition%3A%20absolute%3Bwidth%3A%2086vw%3Bheight%3A%2021.7vw%3Bline-height%3A%2021.7vw%3Btext-align%3A%20center%3Bcolor%3A%20%23542200%3B%7D%0A%0A%20%20%20%20.bullPart%7Bz-index%3A%2099%3B%7D%0A%20%20%20%20.flowerPart%7Bz-index%3A%2099%3B%7D%0A%20%20%20%20.sangongPart%7Bz-index%3A%2099%3B%7D%0A%20%20%20%20.paijiuPart%7Bz-index%3A%2099%3B%7D%0A%20%20%20%20.dicePart%7Bz-index%3A%2099%3B%7D%0A%20%20%20%20.landlordPart%7Bz-index%3A%2099%3B%7D%0A%20%20%20%20.water13Part%7Bz-index%3A%2099%3B%7D%0A%20%20%20%20.majiangPart%7Bz-index%3A%2099%3B%7D%0A%3C/style%3E"));
+//-->
+</script>
+<script>
+<!--
+document.write(unescape("%3Cbody%20%20%3E%0A%09%3Cdiv%20%20id%3D%22loading%22%3E%0A%09%09%3Cimg%20src%3D%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/d_30/images/loading.gif%22%20%20/%3E%0A%09%3C/div%3E%0A%09%0A%09%0A%3C/body%3E%0A%0A%3Cscript%20src%3D%22http%3A//taowa.oss-cn-hangzhou.aliyuncs.com/files/common/js/homeNew/homepage-2.8.3.min.js%22%20type%3D%22text/javascript%22%3E%3C/script%3E%0A%3Cscript%20src%3D%22/app/js/homepage/home.js%22%20type%3D%22text/javascript%22%3E%3C/script%3E%0A%3Cscript%20src%3D%22/app/js/app.js%22%20type%3D%22text/javascript%22%3E%3C/script%3E%0A%3Cscript%20src%3D%22/app/js/tanchuang.js%22%20type%3D%22text/javascript%22%3E%3C/script%3E%0A%3Cscript%20src%3D%22/index.php/portal/index/gamejs%22%20type%3D%22text/javascript%22%3E%3C/script%3E"));
+//-->
+</script>
+<div class="boxgo"><img src  onclickclass="boximg"> <div onclick="location.href='/portal/user/box'" class="boxtext"></div> 
+  <img src="http://goss.fexteam.com/files/images/box/btn_box_goinfo.png"onclick="location.href='/tishi'" class="boxinfoimg">
+   </div>
+
+
+  <script>
+    load('show');
+    token='{$token}';
+    if(dkxx){
+        connect(dkxx);
+    }
+    else{
+        load('hide');
+        prompt('服务器没开启,请稍后再试');
+        setTimeout("$('body').hide()",3000);
+    }
+</script>
+
+
+</html>

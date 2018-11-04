@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+li,ul {
+	list-style: none
+}
+
+
+
+
+.aui-bar-tab {
+	position: fixed;
+	top: auto;
+	bottom: 0;
+	table-layout: fixed;
+	background-color: #fff;
+	color: #757575
+}
+
+.aui-bar-tab .aui-bar-tab-item {
+	display: table-cell;
+	position: relative;
+	width: 1%;
+	height: 2.5rem;
+	text-align: center;
+	vertical-align: middle
+}
+

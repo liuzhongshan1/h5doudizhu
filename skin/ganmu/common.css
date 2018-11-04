@@ -1,0 +1,35 @@
+
+
+/* footer */
+footer {max-width: 800px;left:0;right:0;margin:0 auto;}
+footer.aui-bar {min-height: 0;}
+footer.aui-bar-tab .aui-bar-tab-item {height:50px;}
+footer a i {background-size: 282px auto;background-repeat: no-repeat;display: block;margin:0 auto;width:48px;height: 28px;}
+footer a .recharge-icon {background-position: 1px -74px;}
+footer a .record-icon {background-position: -123px -74px;}
+footer a .home-icon {height: 48px;margin-bottom: 6px;background-position: 0 -3px;background-size: 278px auto;}
+footer a .home-icon-first {background-position: 1px -136px}
+footer a .games-icon {background-position: -123px -14px;}
+footer a .mine-icon {background-position: -244px -14px;}
+footer a.active .recharge-icon {background-position: -60px -74px;}
+footer a.active .record-icon {background-position: -184px -74px;}
+footer a.active .home-icon {background-position: -59px -3px}
+footer a.active .home-icon-first {background-position: -60px -136px}
+footer a.active .games-icon {background-position: -184px -14px;}
+footer a.active .mine-icon {background-position: -244px -75px;}
+footer a .nav-label {height: 16px;background-repeat: no-repeat;background-size: auto 51px;width: 34px;margin: 0 auto;}
+footer a .home-label {background-position: -29px -37px}
+footer a .mine-label {background-position: -93px -17px;}
+footer a .games-label {background-position: -29px -17px;}
+footer a .record-label {background-position: -29px 1px;}
+footer a .recharge-label {background-position: -93px 1px;}
+footer a.active .home-label {background-position: 3px -37px;}
+footer a.active .mine-label {background-position: -60px -17px;}
+footer a.active .games-label {background-position: 3px -17px;}
+footer a.active .record-label {background-position: 3px 1px;}
+footer a.active .recharge-label {background-position: -60px 1px}
+.footer-back {line-height: 50px;height: 50px;position: fixed;left:0;right:0;bottom:0;width:100%;max-width:800px;margin:0 auto;z-index: 6;}
+.footer-back .back {height: 36px;width:36px;display: inline-block;line-height: 36px;position: absolute;left:10px;top:7px;text-align: center;}
+.footer-back p {text-align: center;font-size: 20px;font-weight: bold;}
+
+

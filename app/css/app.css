@@ -1,0 +1,104 @@
+.maik,.maiks{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+.maik{
+    z-index: 200;
+}
+.maiks{
+    z-index: 200;
+}
+.show {
+  display: block!important;
+}
+.hide {
+  display: none!important;
+}
+.showw {
+  display: block!important;
+}
+.hidee {
+  display: none!important;
+}
+.load{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 201;
+    background: rgba(255,255,255,0);
+}
+.load>img{
+    width: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -0.35rem;
+    margin-top: -0.35rem;
+}
+.prompt{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #f2463a;
+    font-size: 1rem;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index:9999999999;
+}
+.prompt>span{
+    padding: .1rem .3rem;
+    display: inline-block;
+    color: #fff;
+}
+
+.niuniuselect{
+    display: none;
+}
+.niuniuunselect{
+    display: block;
+}
+.active .niuniuselect{
+    display: block;
+}
+.active .niuniuunselect{
+    display: none;
+}
+
+.selectItem img{
+    display: none;
+}
+.selectItem.active img{
+    display: block;
+}
+.selectPart:after{
+    clear: both;
+}
+/*.cjfj-home-img11{display:none;}*/
+
+.messageEmoji{position: absolute;background: url(http://cdn.euo69.cn/app/img/emoji/emoji.png?v=0224);width: 47px;height: 37px;margin-top: -16px;background-size: 940px 37px;z-index: 97;}
+.emoji0{background-position: 0px 0;}
+.emoji1{background-position: -47px 0;}
+.emoji2{background-position: -94px 0;}
+.emoji3{background-position: -141px 0;}
+.emoji4{background-position: -188px 0;}
+.emoji5{background-position: -235px 0;}
+.emoji6{background-position: -282px 0;}
+.emoji7{background-position: -329px 0;}
+.emoji8{background-position: -376px 0;}
+.emoji9{background-position: -423px 0;}
+.emoji10{background-position: 470px 0px;}
+.emoji11{background-position: -517px 0px;}
+.emoji12{background-position: -564px 0px;}
+.emoji13{background-position: -611px 0px;}
+.emoji14{background-position: -658px 0px;}
+.emoji15{background-position: -705px 0px;}
+.emoji16{background-position: -752px 0px;}
+.emoji17{background-position: -799px 0px;}
+.emoji18{background-position: -846px 0px;}
+.emoji19{background-position: -893px 0px;}

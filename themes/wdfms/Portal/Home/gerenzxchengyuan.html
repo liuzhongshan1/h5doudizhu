@@ -1,0 +1,179 @@
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+  <meta name="format-detection" content="telephone=no" /> 
+  <meta name="msapplication-tap-highlight" content="no" /> 
+  <title>积分成员管理</title> 
+  <link rel="stylesheet" href="__TMPL__Public/csss/public.css?v=<php>echo time();</php>" /> 
+  <link rel="stylesheet" href="__TMPL__Public/csss/alert.css" /> 
+  <link rel="stylesheet" href="__TMPL__Public/csss/swiper-3.4.2.min.css" />  
+  <link rel="stylesheet" type="text/css" href="__TMPL__Public/csss/bullalert.css" /> 
+  <link rel="stylesheet" type="text/css" href="__TMPL__Public/csss/bullshop.css" /> 
+  <link rel="stylesheet" type="text/css" href="__TMPL__Public/csss/common/alert.css" /> 
+  <link rel="stylesheet" type="text/css" href="__TMPL__Public/csss/activity.css">
+  <link rel="stylesheet" type="text/css" href="__TMPL__Public/csss/test.css?v=<php>echo time();</php>"> 
+  <script src="__TMPL__Public/js/homepage/jq.js" type="text/javascript"></script>  
+  <script src="__TMPL__Public/js/homepage/home.js" type="text/javascript"></script>  
+  <script src="__TMPL__Public/js/swiper-3.4.2.min.js" type="text/javascript"></script> 
+ <style type="text/css">
+h1 {font-size: 13px}
+</style>
+  </head> 
+ <body style="background-color: #0e0226">
+ <div id="fasongfk" background: rgb(14, 2, 38);height: 100%;position: fixed; width: 100%;">
+ <div id="app-main" class="main" style="position: relative; width: 100%; margin: 0px auto; background: rgb(14, 2, 38); display: block;">
+   <div id="valert" class="alert" style="display: none;">
+    <div class="alertBack"></div> 
+    <div class="mainPart">
+     <div class="backImg">
+      <div class="blackImg"></div>
+     </div> 
+     <div class="alertText" id="tipmsg"></div> 
+     <div>
+      <div class="buttonLeft">
+       确定
+      </div> 
+      <div class="buttonRight" onclick="$('#valert').hide();">
+       取消
+      </div>
+     </div> 
+     <div style="display: none;">
+      <div class="buttonMiddle">
+       确定
+      </div>
+     </div>
+     </div>
+    </div>
+   </div> 
+   <div class='jiuren-chengyuangl' style="">
+      <foreach name="qun" item="one">
+      <div style="<if condition='$one["zt"] eq 1'>height: 28vw;</if>" class='qun-bg' id="userxx{$one.uid}">
+      <img src="{$one.uid|userimg=###}" style="position: absolute; top: 3vw; left: 3vw; width: 12vw; height: 12vw;" /> 
+      <div style="position: absolute; top: 3vw; width: 100%; left: 18vw; font-size: 12pt; color: white; text-align: left;">{$one.uid|username=###}</div> 
+      <div class="jiuren-chengyuangl-yhid">ID:{$one.uid}</div> 
+      <div class="jiuren-chengyuangl-ty" <if condition="$one['zt'] eq 0">style="display:block"</if> onclick="tongyi({$one.uid})">
+        同意 
+      </div> 
+      <div class="jiuren-chengyuangl-jj" <if condition="$one['zt'] eq 0">style="display:block"</if> onclick="jvjue({$one.uid})">
+        拒绝 
+      </div>
+      <div class="jiuren-chengyuangl-tc" <if condition="$one['zt'] eq 1">style="display:block"</if> onclick="tichu({$one.uid})">
+        踢出 
+      </div>
+	  <if condition="$one['zt'] eq 1">
+	  <div class="jiuren-chengyuangl-credits">
+		<span>积分:</span>
+		<span>{$one.credits}</span>
+	  </div>
+	  <div>
+		<!-- <div class="jiuren-chengyuangl-asc" <if condition="$one['zt'] eq 1">style="display:block"</if> onclick="addSubCredits(this)">上下分</div> -->
+		<div class="addOrSubCredits" style="display: block">
+		  <input type="text" class="creditsCount" placeholder="积分数量" />
+          <div class="addCredits" onclick="addCredits(this, {$one.uid})"><h1>上分</h1></div>
+		  <div class="subCredits" onclick="subCredits(this, {$one.uid})"><h1>下分</h1></div>
+		</div>
+	  </div>
+	 </if>
+     </div>
+    </foreach>
+     <div class='jiuren-chengyuangl-mygd'  id="moretext">
+      没有更多内容
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+<div id="fasongfking"></div>
+ </body>
+ <script>
+ function tipxx(msg, callback){
+  $('#tipmsg').html(msg);
+  $('#valert').show();
+  $("#valert .buttonLeft").off("click").on("click", function(e) {
+  	$("#valert").hide();
+    if(callback) {
+    	callback();
+    }
+  });
+}
+function addSubCredits(obj) {
+	var $_this = $(obj);
+  	if($_this.is(":hidden")) {
+    	$_this.show().next().hide();
+    } else {
+    	$_this.hide().next().show();
+    }
+}
+
+function addCredits(obj, wjuid) {
+	var $_this = $(obj);
+  	var credits = $_this.prev().val();
+  	addOrSubCredits(credits, 1, wjuid);
+}
+   
+function subCredits(obj, wjuid) {
+	var $_this = $(obj);
+  	var credits = $_this.prev().prev().val();
+  	addOrSubCredits(credits, 2, wjuid);
+}
+   
+function addOrSubCredits(credits, opType, touid) {
+	if(credits <= 0) {
+    	tipxx("操作积分数量必须大于0！");
+      	return;
+    }
+  	var param = {
+    	"credits": credits,
+      	"opType": opType,
+      	"touid": touid
+    };
+  	$.post("/Portal/Home/addOrSubCredits", param, function(result) {
+    	tipxx(result.info);
+      	if(result.status == '1'){
+          	setTimeout(function () {
+              	window.location.reload();
+            }, 2000);
+        }
+    }, "json");
+}
+   
+function tongyi(id){
+      $.post("/index.php/portal/home/quncz/",{id:id,zt:1},function(result){
+        if(result.status == "1"){
+            tipxx("同意成功", function() {
+            	window.location.reload();
+            });
+            /* $('#userxx'+id+' .jiuren-chengyuangl-ty').hide();
+            $('#userxx'+id+' .jiuren-chengyuangl-jj').hide();
+            $('#userxx'+id+' .jiuren-chengyuangl-tc').show(); */
+        }
+        else{
+          tipxx(result.info);
+        }
+      },'json');
+}
+function jvjue(id){
+      $.post("/index.php/portal/home/quncz/",{id:id,zt:0},function(result){
+        if(result.status=='1'){
+            tipxx('拒绝成功');
+            $('#userxx'+id).remove();
+        }
+        else{
+          tipxx(result.info);
+        }
+      },'json');
+}
+function tichu(id){
+      $.post("/index.php/portal/home/quncz/",{id:id,zt:0},function(result){
+        if(result.status=='1'){
+            tipxx('踢出成功');
+            $('#userxx'+id).remove();
+        }
+        else{
+          tipxx(result.info);
+        }
+      },'json');
+}
+</script>
+</html>

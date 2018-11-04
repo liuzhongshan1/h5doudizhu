@@ -1,0 +1,182 @@
+﻿<html>
+<head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<title>神兽导航页</title>
+
+<script src="http://goss.fexteam.com/files/js/jquery-1.9.1.min.js"></script>
+
+</head>
+<style>
+*{padding: 0;margin:0;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-backface-visibility: hidden;-webkit-overflow-scrolling: touch;}a {text-decoration: none;color: #fff;}ul {list-style: none;}input{border: none;outline:none}body{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;cursor: default;}
+img{border: none;}html{height: 100%;}
+.back{position: fixed;top:0;left: 0;width:100vw;height: 100%;}
+.linkArea{position: relative;width: 92vw;margin: 0 auto;}
+.linkArea .top{margin-top: 6vw;}
+.linkArea .top .img1{width: 31vw;}
+.linkArea .top .img2{float: right;width: 58.5vw;}
+.linkArea .linkList{position: relative;}
+.linkArea .linkList img{width: 100%;margin-top: 2vw;}
+
+.linkArea .button{position: absolute;width:42vw;height: 12vw;}
+.linkArea .buttonLeft{left: 0;}
+.linkArea .buttonRight{right: 0;}
+.linkArea .button26{top: 2vw;}
+.linkArea .button25{top: 16vw;}
+.linkArea .button16{top: 30vw;}
+.linkArea .button31{top: 44vw;}
+
+.linkArea .button22{top: 62vw;}
+.linkArea .button11{top: 76vw;}
+.linkArea .button40{top: 90vw;}
+.linkArea .button46{top: 104vw;}
+.linkArea .button42{top: 118vw;}
+
+.linkArea .button41{top: 136vw;}
+.linkArea .button39{top: 150vw;}
+.linkArea .button45{top: 164vw;}
+.linkArea .button38{top: 178vw;}
+.linkArea .button43{top: 192vw;}
+
+.linkArea .button47{top: 210vw;}
+.linkArea .button48{top: 224vw;}
+.linkArea .button49{top: 238vw;}
+.linkArea .button50{top: 252vw;}
+  
+.linkArea .button51{top: 270vw;}
+.linkArea .button52{top: 284vw;}
+
+.linkArea .bottom{height: 10vw;}
+</style>
+
+   <body  >
+	
+	<div class="main">
+		<img src="http://goss.fexteam.com/files/images/commonPage/home.jpg" class="back">
+		<div class="linkArea">
+			<div class="top">
+				<img class="img1" src="http://goss.fexteam.com/files/images/commonPage/fangwei.png" onclick="relink(0,1)" />
+				<img class="img2" src="http://goss.fexteam.com/files/images/commonPage/bilin.png" />
+			</div>
+			<div class="linkList">
+				<img src="http://goss.fexteam.com/files/images/commonPage/qinglong.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/baihu.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/zhuque.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/xuanwu.png">
+				
+				<img src="http://goss.fexteam.com/files/images/commonPage/lianhe.png" style="margin-top: 6vw;">
+				<img src="http://goss.fexteam.com/files/images/commonPage/qilin.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/nvwa.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/fenghuang.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/longzhu.png">
+				
+				<img src="http://goss.fexteam.com/files/images/commonPage/xiangyun.png" style="margin-top: 6vw;">
+				<img src="http://goss.fexteam.com/files/images/commonPage/longma.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/jiuwei.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/pangu.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/jingwei.png">
+
+				<img src="http://goss.fexteam.com/files/images/commonPage/shenlong.png" style="margin-top: 6vw;">
+				<img src="http://goss.fexteam.com/files/images/commonPage/xuanyuan.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/huoshen.png">
+				<img src="http://goss.fexteam.com/files/images/commonPage/tiangou.png">
+
+				
+              
+				<div class="button button26 buttonLeft" onclick="relink(26,1)"></div>
+				<div class="button button26 buttonRight" onclick="relink(26,2)"></div>
+				
+				<div class="button button25 buttonLeft"  onclick="relink(25,1)"></div>
+				<div class="button button25 buttonRight"  onclick="relink(25,2)"></div>
+				
+				<div class="button button16 buttonLeft"  onclick="relink(16,1)"></div>
+				<div class="button button16 buttonRight" onclick="relink(16,2)"></div>
+				
+				<div class="button button31 buttonLeft" onclick="relink(31,1)"></div>
+				<div class="button button31 buttonRight" onclick="relink(31,2)"></div>
+				
+				<div class="button button22 buttonLeft" onclick="relink(22,1)"></div>
+				<div class="button button22 buttonRight" onclick="relink(22,2)"></div>
+				
+				<div class="button button11 buttonLeft" onclick="relink(11,1)"></div>
+				<div class="button button11 buttonRight" onclick="relink(11,2)"></div>
+				
+				<div class="button button40 buttonLeft" onclick="relink(40,1)"></div>
+				<div class="button button40 buttonRight" onclick="relink(40,2)"></div>
+				
+				<div class="button button46 buttonLeft" onclick="relink(46,1)"></div>
+				<div class="button button46 buttonRight" onclick="relink(46,2)"></div>
+
+				<div class="button button42 buttonLeft" onclick="relink(42,1)"></div>
+				<div class="button button42 buttonRight" onclick="relink(42,2)"></div>
+				
+				<div class="button button41 buttonLeft" onclick="relink(41,1)"></div>
+				<div class="button button41 buttonRight" onclick="relink(41,2)"></div>
+				
+				<div class="button button39 buttonLeft" onclick="relink(39,1)"></div>
+				<div class="button button39 buttonRight" onclick="relink(39,2)"></div>
+				
+				<div class="button button45 buttonLeft" onclick="relink(45,1)"></div>
+				<div class="button button45 buttonRight" onclick="relink(45,2)"></div>
+				
+				<div class="button button38 buttonLeft" onclick="relink(38,1)"></div>
+				<div class="button button38 buttonRight" onclick="relink(38,2)"></div>
+				
+				<div class="button button43 buttonLeft" onclick="relink(43,1)"></div>
+				<div class="button button43 buttonRight" onclick="relink(43,2)"></div>
+
+				<div class="button button47 buttonLeft" onclick="relink(47,1)"></div>
+				<div class="button button47 buttonRight" onclick="relink(47,2)"></div>
+
+				<div class="button button48 buttonLeft" onclick="relink(48,1)"></div>
+				<div class="button button48 buttonRight" onclick="relink(48,2)"></div>
+
+				<div class="button button49 buttonLeft" onclick="relink(49,1)"></div>
+				<div class="button button49 buttonRight" onclick="relink(49,2)"></div>
+
+				<div class="button button50 buttonLeft" onclick="relink(50,1)"></div>
+				<div class="button button50 buttonRight" onclick="relink(50,2)"></div>
+              
+
+			</div>	
+			<div class="bottom"></div>			
+		</div>
+		
+	</div>
+</body>
+
+
+<script >
+	var testData = eval('(' + '{"fw_url":"http://fw.fexteam.cn\/","bean_url":"/p/index/00","h5_url_array":{"11":{"mainview":"/index.php/Portal/index/index/skin/11","homepage":"/portal/user/index"},"16":{"mainview":"/index.php/Portal/index/index/skin/16","homepage":"/portal/user/index"},"22":{"mainview":"/index.php/Portal/index/index/skin/22","homepage":"/portal/user/index"},"25":{"mainview":"/index.php/Portal/index/index/skin/25","homepage":"/portal/user/index"},"26":{"mainview":"/index.php/Portal/index/index/skin/26","homepage":"/portal/user/index"},"31":{"mainview":"/index.php/Portal/index/index/skin/31","homepage":"/portal/user/index"},"38":{"mainview":"/index.php/Portal/index/index/skin/38","homepage":"/portal/user/index"},"39":{"mainview":"/index.php/Portal/index/index/skin/39","homepage":"/portal/user/index"},"40":{"mainview":"/index.php/Portal/index/index/skin/40","homepage":"/portal/user/index"},"41":{"mainview":"/index.php/Portal/index/index/skin/41","homepage":"/portal/user/index"},"42":{"mainview":"/index.php/Portal/index/index/skin/42","homepage":"/portal/user/index"},"43":{"mainview":"/index.php/Portal/index/index/skin/43","homepage":"/portal/user/index"},"45":{"mainview":"/index.php/Portal/index/index/skin/45","homepage":"/portal/user/index"},"46":{"mainview":"/index.php/Portal/index/index/skin/46","homepage":"/portal/user/index"},"47":{"mainview":"/index.php/Portal/index/index/skin/47","homepage":"/portal/user/index"},"48":{"mainview":"/index.php/Portal/index/index/skin/48","homepage":"/portal/user/index"},"49":{"mainview":"/index.php/Portal/index/index/skin/49","homepage":"/portal/user/index"},"50":{"mainview":"/index.php/Portal/index/index/skin/50","homepage":"/portal/user/index"},"51":{"mainview":"/index.php/Portal/index/index/skin/51","homepage":"/portal/user/index"},"52":{"mainview":"/index.php/Portal/index/index/skin/52","homepage":"/portal/user/index"}}}' + ')');
+
+	function relink(type,num){
+		if(type==0){
+			if(num==1){
+				window.location.href=testData.fw_url;
+			}
+			else if(num==2){
+				window.location.href=testData.bean_url;
+			}
+		}else{
+			for(i in testData.h5_url_array){
+				if(i==type){
+					if(num==2){
+						console.log(testData.h5_url_array[i].mainview);
+						window.location.href=testData.h5_url_array[i].mainview;
+					}
+					else if(num==1){
+						console.log(testData.h5_url_array[i].homepage);
+						window.location.href=testData.h5_url_array[i].homepage;
+					}
+				}
+			}	
+		}
+
+	}
+</script>
+
+
+</html>
+

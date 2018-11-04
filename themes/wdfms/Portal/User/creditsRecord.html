@@ -1,0 +1,76 @@
+<foreach name="recordData" item="record">
+  <tr>
+    <php>
+      $img = $self["img"];
+      $nickname = $self["nickname"];
+      $isQunZhu = false;
+      if($type == 1) {
+      	$img = $users[$record["id"]]["img"];
+      	$nickname = $users[$record["id"]]["nickname"];
+      	$isQunZhu = $record["fromuid"] == $self["id"];
+      }
+    </php>
+	<td><img src="<if condition='($type == 2 && $record.settlementtype == 1) || $type == 1'>{$img}<else/>{$record.userimg}</if>" /></td>
+	<td>
+    <if condition="$type == 2 || $type == 0">
+		系统
+	<else/>
+		{$nickname}
+	</if>
+  	</td>
+    <td>
+	<if condition="$type == 2">
+		<if condition="$record.settlementtype == 2">
+			福利
+        <else/>
+          	游戏
+		</if>
+	<else/>
+		<if condition="$type == 0">
+			<if condition="$record.number elt 0">
+				下分
+			<else/>
+				上分
+			</if>
+		<else/>
+			<if condition="$record.credits lt 0">
+				<if condition="$isQunZhu">上分<else/>下分</if>
+			<else/>
+				<if condition="$isQunZhu">下分<else/>上分</if>
+			</if>
+		</if>
+	</if>
+  	</td>
+	<if condition="$type == 0">
+      <td class="<if condition='$record.number elt 0'>trend-green<else/>trend-red</if>">{$record.number}</td>
+	<elseif condition="$type eq 1"/>
+      	<php>
+          $trendClass = "trend-red";
+          $trendVal =  intval($record["credits"]);
+          $trend = "+" . abs($trendVal);
+          if($isQunZhu) {
+          	if(1 == $record["type"]) {
+          		$trendClass = "trend-green";
+          		$trend = "-" . abs($trendVal);
+          	}
+          } else {
+          	$trend = ($trendVal > 0 ? "+" : "-") . abs($trendVal);
+          }
+      	</php>
+		<td class="{$trendClass}">{$trend}</td>
+	<else/>
+		<td class="<if condition='$record.jifen elt 0'>trend-green<else/>trend-red</if>">
+          	<php>
+              	echo ($record["jifen"] > 0 ? "+" : "-") . abs($record["jifen"]);
+          	</php>
+      	</td>
+	</if>
+	<if condition="$type == 0">
+		<td>{$record.create_time|date="m-d H:i", ###}</td>
+	<elseif condition="$type == 1"/>
+		<td>{$record.createtime|date="m-d H:i",###}</td>
+	<else/>
+		<td>{$record.overtime|date="m-d H:i",###}</td>
+	</if>
+  </tr>
+</foreach>

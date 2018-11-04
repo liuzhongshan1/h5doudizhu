@@ -1,0 +1,262 @@
+
+  <div class="createRoomBack"></div> 
+  <div class="mainPart" style="height: 65vh;">
+   <div class="createB"></div> 
+   <div class="createTitle">
+    <img src="/app/img/common/game_rule.png" />
+   </div> 
+   <img src="/app/img/common/cancel.png" class="cancelCreate" onclick="public('vroomRule')" /> 
+   <div class="blueBack" style="height: 58vh;">
+    <div class="selectPart" style="top: 0px; height: 4vh; line-height: 4.1vh;">
+     <div class="selectTitle" style="width: 100%; font-size: 2vh; text-align: center; color:#efd0a4; background-color: #4e3f79; opacity: 1;">
+      创建房间,游戏未进行,不消耗房卡
+     </div>
+    </div>
+     <if condition="trim($room['wfname'])">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      玩法：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$room['wfname']}
+       </div>
+      </div> 
+     </div>
+    </div>
+     </if>
+     <if condition="$room['mode']">
+     <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+      <div class="selectTitle">
+       模式：
+      </div>
+      <div class="selectList">
+       <div class="selectItem" style="margin-left: 10px;">
+        <div class="selectText">
+         {$room['mode']}
+        </div>
+       </div>
+      </div>
+     </div>
+    </if>
+    <if condition="$room['modeIndex']">
+    <if condition="$room['welfare']">
+     <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+      <div class="selectTitle">
+       福利：
+      </div>
+      <div class="selectList">
+       <div class="selectItem" style="margin-left: 10px;">
+        <div class="selectText">
+         {$room['welfare']}
+        </div>
+       </div>
+      </div>
+     </div>
+    </if>
+    <if condition="$room['target']">
+     <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+      <div class="selectTitle">
+       对象：
+      </div>
+      <div class="selectList">
+       <div class="selectItem" style="margin-left: 10px;">
+        <div class="selectText">
+         {$room['target']|implode=",",###}
+        </div>
+       </div>
+      </div>
+     </div>
+    </if>
+     </if>
+    <if condition="$room['gz']">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      规则：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$room['gz']}
+       </div>
+      </div> 
+      <!---->
+     </div>
+    </div>
+
+    </if> 
+
+
+	 <if condition="$room['px']">
+    <div class="selectPart" style="height: 15vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      牌型：
+     </div> 
+     <div class="selectList">
+     <foreach name="room['px']" item="one">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$one}
+       </div>
+      </div>
+      </foreach> 
+     </div>
+    </div>
+    </if>
+
+ 
+    <if condition="$room['df']">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      底分：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$room['df']}
+       </div>
+      </div> 
+      <!---->
+     </div>
+    </div>
+
+    </if> 
+  
+      <if condition="$bs">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      倍数：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+         {$bs}
+        </div>
+      </div> 
+      <!---->
+     </div>
+    </div>
+
+    </if> 
+     
+  <if condition="$room['cm']">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      筹码：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$room['cm']}
+       </div>
+      </div> 
+      <!---->
+     </div>
+    </div>
+
+    </if> 
+       <if condition="$room['kp']">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      看牌：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$room['kp']}
+       </div>
+      </div> 
+      <!---->
+     </div>
+    </div>
+
+    </if> 
+
+ </if> 
+       <if condition="$room['bp']">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      比牌：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$room['bp']}
+       </div>
+      </div> 
+      <!---->
+     </div>
+    </div>
+
+    </if> 
+    
+    <if condition="$room['sx']">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      上限：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$room['sx']}
+       </div>
+      </div> 
+      <!---->
+     </div>
+    </div>
+
+    </if> 
+
+
+    <if condition="$room['sz']">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      上庄：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$room['sz']}
+       </div>
+      </div> 
+      <!---->
+     </div>
+    </div>
+
+    </if> 
+
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      局数：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+        {$room['zjs']}局X{$room['fk']}房卡
+       </div>
+      </div> 
+      <!---->
+     </div>
+    </div> 
+    </div>
+
+
+
+
+    <if condition="$bs">
+    <div class="selectPart" style="height: 4vh; line-height: 4vh; padding: 0.8vh 0px;">
+     <div class="selectTitle">
+      倍数：
+     </div> 
+     <div class="selectList">
+      <div class="selectItem" style="margin-left: 10px;">
+       <div class="selectText">
+         {$bs}
+        </div>
+      </div> 
+      <!---->
+     </div>
+    </div>
+
+    </if> 

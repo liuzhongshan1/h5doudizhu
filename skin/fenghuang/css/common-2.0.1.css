@@ -1,0 +1,99 @@
+*{padding: 0;margin:0;}a {text-decoration: none;color: #fff;}ul {list-style: none;}input{border: none;outline:none}body{font-family: 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, Arial, sans-serif;cursor: default;}
+img{border: none;}
+body{background: #000;background: none;}
+.main{width: 100%;position:relative;margin:0 auto;}
+
+#loading{position: fixed;width:100%;height:100%;top:0;left:0;background: #000;}
+#loading img{top: 40%;position: absolute;left: 50%;margin-left: -45px;margin-top: -45px;}
+
+
+
+.noty{position: fixed;background-color: rgba(0,0,0,0.8);width: 100%;height: 7vh;overflow: hidden;z-index: 9998;top:0;left:0;}
+.noty img{position: absolute;top: 1.5vh;left: 3vw;width: 4vh;height: 4vh;}
+#marquee{position: fixed;top: 0;left: 12vw;background-color: rgba(0,0,0,0);width: 88vw;height: 7vh;line-height: 7vh;color: white;font-size: 14px;overflow: hidden;z-index: 9999;opacity:0;}
+
+
+#validePhone .phoneMask{position: fixed;z-index: 98;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,0.5);}
+#validePhone .phoneFrame{position: fixed;z-index: 99;width: 80vw;max-width: 80vw; top: 50%; left: 50%;-webkit-transform:translate(-50%,-60%); background-color: #fff; text-align: center; border-radius: 8px; overflow: hidden;opacity: 1; color: white;}
+#validePhone .notyText{padding: 0vh;font-size: 3.5vw; line-height: 8vw; word-wrap: break-word;word-break: break-all;color: #000;background-color: white;}
+#validePhone .box{position: relative;height: 15vw;word-wrap: break-word;word-break: break-all;color: #000;background-color: white;border-top: solid;border-color: #e6e6e6;border-width: 0px;}
+#validePhone .box input{padding:0 12px 0 12px;position: absolute;top:  2.5vw;left: 4vw;width: 48vw;height: 11vw;line-height: 6.5vw;border-style: solid;border-width: 1px;border-radius: 0.5vh;border-color: #e6e6e6;font-size: 4vw;-webkit-appearance: none;}
+#validePhone .box #authcode{position: absolute;top:  2.5vw;right: 4vw; width: 22vw;height: 10vw;line-height: 10vw;background-color: rgb(211,211,211);font-size: 3.5vw;border-radius: 0.5vh;color: white;}
+#validePhone .smspwd{position: relative;height: 15vw;word-wrap: break-word;word-break: break-all;color: #000;background-color: white;border-top: solid;border-color: #e6e6e6;border-width: 0px;}
+#validePhone .smspwd input{padding:0 12px 0 12px;position: absolute;top: 1vw;left: 4vw;width: 72vw;height: 11vw;line-height: 6.5vw;border-style: solid;border-width: 1px;border-radius: 0.5vh;border-color: #e6e6e6;font-size: 4vw;-webkit-appearance: none;}
+#validePhone .rest{height: 2.2vw;}
+#validePhone .commitButton{position: relative; left: 4vw;width: 72vw;line-height: 10vw; font-size: 4vw;display: flex;border-radius: 2vw;}
+#validePhone .commitButton .inner{display: block;-webkit-box-flex:1;flex: 1;text-decoration: none;-webkit-tap-highlight-color:transparent;position: relative;margin-bottom: 0;color: rgb(255,255,255);border-top: solid;border-color: #e6e6e6;border-width: 0px;background-color: rgb(64,112,251);border-radius: 1vw;}
+
+
+
+
+
+
+.shop{position: fixed;width: 100%;height:100%;top:0;left:0;z-index: 112;} 
+.shop .shopBack{width: 100%;height:100%;background: #000;opacity:0.6;}  
+.shop .shopBody{width: 100%;position: absolute;bottom: 0;left:0;height: 0; }  
+.shop .shopBody .top{position: absolute;top:0;left:0;height:100%;width:100%;}  
+.shop .shopBody .top .img1{width: 100%;position: relative;z-index: 1}  
+.shop .shopBody .top .img2{width: 100%;margin-top: -20px;position: relative;border-radius:15px 15px 0 0;}  
+.shop .shopBody .shopReturn{width: 15%;float: left;margin-top:6.3%;margin-left:5%;position: relative;}  
+.shop .shopBody .shopBuy{width: 34%;float: right;margin-top:8.3%;margin-right:33%;position: relative;}  
+.shop .shopBody .shopGoods{width: 34%;position: relative;padding: 3px;} 
+.shop .shopBody .shopGoods img{width: 100%;border-radius: 10px;}  
+.shop .shopBody .shopGoods .title{position: absolute;top: 3;font-size: 14px;left: 0;width: 100%;text-align: center;color: #fff;}  
+.shop .shopBody .shopGoods .price{position: absolute;bottom: 3;font-size: 20px;left: 0;width: 100%;text-align: center;color: #f1c818;line-height: 36px;}
+.shop .shopBody .goodsBack{border:3px solid #fada23;padding: 0;border-radius: 14px;}
+.shop .shopBody .goodsBack .title{top: 0;}  
+.shop .shopBody .goodsBack .price{bottom: 0;}
+.shop .shopBody .goodsBack .background{position: absolute;top:0;left: 0;width:100%;height:100%;background:#fada23;opacity:.15; }
+.shop .shopBody .shopGoods1{margin-top:39%;margin-left: 11.2%;float: left;} 
+.shop .shopBody .shopGoods2{margin-top:39%;margin-right: 11.2%;float: right;} 
+.shop .shopBody .shopGoods3{margin-top:7.2%;margin-left: 11.2%;float: left;}  
+.shop .shopBody .shopGoods4{margin-top:7.2%;margin-right: 11.2%;float: right;}
+.shop .shopLoading{width: 100%;position: absolute;left: 0;top:0;height: 100%;z-index: 9;}
+.shop .shopLoading .loadingImg{width: 100%;position: absolute;left: 0;top:0;height: 100%;background: #000;opacity:0.6;}
+.shop .shopLoading img{width: 80px;height:80px;margin-left: -40px;margin-left: -40px;position: absolute;left: 50%;top:40%;}
+
+
+.alert{position: fixed;width: 100%;height:100%;top:0;left:0;z-index: 111;color: #fff;font-family: simHei;}
+.alert .alertBack{width: 100%;height:100%;background: #000;opacity:0.8;position: absolute;}
+.alert .mainPart{position: relative;top: 45%;left: 50%;margin-top:-19vh ;margin-left:-22.5vh ;width: 45vh;height:38vh; }
+.alert .mainPart .alertText{position: absolute;width:100%;line-height: 3.5vh;font-size: 2.5vh;width: 36vh;left:50%;margin-left:-18vh;top:5.6vh;text-align: center;}
+.alert .mainPart .buttonMiddle{position: absolute;width:100%;line-height: 6vh;height: 5.6vh;font-size: 2.5vh;width: 18vh;left:50%;margin-left:-9vh;bottom:2.2vh;text-align: center;background:url("http://goss.fexteam.com/files/d_25/images/game/button2.png");background-size:100%;}
+.alert .mainPart .buttonLeft{position: absolute;width:100%;line-height: 6vh;height: 5.6vh;font-size: 2.5vh;width: 18vh;left:3vh;bottom:2.2vh;text-align: center;background:url("http://goss.fexteam.com/files/d_25/images/game/button1.png");background-size:100%;}
+.alert .mainPart .buttonRight{position: absolute;width:100%;line-height: 6vh;height: 5.6vh;font-size: 2.5vh;width: 18vh;right:3vh;bottom:2.2vh;text-align: center;background:url("http://goss.fexteam.com/files/d_25/images/game/button2.png");background-size:100%;}
+.alert .mainPart .backImg{position: absolute;width:100%;height:100%;border-radius: 1.5vh;border:0.1vh solid #de51f1;top:0;left:0;background: #6d4ba8;}
+.alert .mainPart .backImg .blackImg{position: absolute;width:40.6vh;height:25vh;border-radius: 1.5vh;border:0.1vh solid #ae71cb;top:2.2vh;left:2.2vh;background: #190d2d;}
+
+.createRoom{position: fixed;width: 100%;height:100%;top:0;left:0;z-index: 110;} 
+.createRoom .createRoomBack{width: 100%;height:100%;background: #000;opacity:0.6;}
+.createRoom .mainPart{width: 45vh;position: absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+.createRoom .mainPart .createB{width: 100%;height:100%;top:0%;left:0%;position: absolute;background:#634fa6;border:1px solid #a684f2;border-radius:10px; }  
+.createRoom .mainPart .createTitle{position:relative;height:5.5vh;text-align: center;}  
+.createRoom .mainPart .createTitle img{position:relative;height:3vh;margin-top: 1.5vh;} 
+.createRoom .mainPart .cancelCreate{width: 5vh;height:5vh;top:-2.5vh;right:-2.5vh;position: absolute;}  
+.createRoom .mainPart .selectBankerMode{width: 100%; height: 5.4vh;line-height: 2.7vh;}  
+.createRoom .mainPart .selectBankerMode .title{position: absolute;top: 0.6vh;left: 0; width: 100%;height: 5.4vh;line-height: 2.2vh;text-align: center;}  
+
+.bankerSelected{position: absolute;width: 8vh;height: 5.4vh;border-style: solid;border-width: 0px;border-color: #392c62;color: #653604;text-align: center;font-size: 1.8vh;overflow: hidden;}
+.bankerSelected img{position: absolute;top: 0;left: 0;width: 7.7vh;height: 5.4vh;border-style: solid;border-width: 0.5px;border-color: #392c62;border-top-left-radius:4px;}
+.bankerUnSelected{position: absolute;width: 8vh;height: 5.4vh;border-style: solid;border-width: 0px;border-color: #e8c007;color: #9a6b3a;text-align: center;font-size: 1.8vh;overflow: hidden;}
+.bankerUnSelected img{position: absolute;top: 0;left: 0;width: 7.7vh;height: 5.4vh;border-style: solid;border-width: 0.5px;border-color: #e8c007;border-top-left-radius:4px;}
+
+.createRoom .mainPart .freeCreateCommit{position: relative;margin-top: 3vh;bottom: 1.5vh;line-height: 6vh;height: 5.2vh;font-size: 2.5vh;width: 22vh;left:50%;margin-left:-11vh;text-align: center;background:url("http://goss.fexteam.com/files/images/common/freecommit.png");background-size:100%;color: #fff;} 
+.createRoom .mainPart .createCommit{position: relative;margin-top: 3vh;bottom: 1.5vh;line-height: 6vh;height: 5.7vh;font-size: 2.5vh;width: 18vh;left:50%;margin-left:-9vh;text-align: center;background:url("http://goss.fexteam.com/files/d_25/images/game/button2.png");background-size:100%;color: #fff;} 
+.createRoom .mainPart .blueBack{width: 42vh;background:#111431;border:1px solid #a684f2;border-radius:4px;margin:0 auto;position: relative;padding: 0 0 0.8vh 0; }
+.createRoom .mainPart .blueBack .selectPart{width:100%;margin-top:0.5vh;line-height:4.5vh;font-size:2.1vh;position: relative;color:#111431;background:#bbbff1;border-radius:0px;font-family:simHei; padding:1vh 0;}
+.createRoom .mainPart .blueBack .selectPart .selectTitle{float: left;width:8vh;text-align: right;}
+.createRoom .mainPart .blueBack .selectPartTop{top: 0px;height:4.5vh;padding: 0 0;width:100%;margin-top:0.5vh;line-height:4.5vh;font-size:2.1vh;position: relative;color:#111431;background:#bbbff1;border-radius:0px;font-family:simHei; }
+.createRoom .mainPart .blueBack .selectTitleTop{top: 0;left: 0;width: 100%;height: 100%;font-size: 2vh; text-align: center;color: #efd0a4; background-color: #4e3f79;opacity: 1.0;text-align: center;}
+.createRoom .mainPart .blueBack .selectPart .selectList{float: left; width: 34vh}
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItem{float: left;position:relative;margin-left:1.8vh; }
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItem .selectBox{float: left;height:2.1vh;width:2.1vh;border:1px solid #1d1045;border-radius:2px;background:#78899d;margin-top:1vh;position: relative; }
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItem .img{position: absolute;width: 3vh;height:3vh;left: 0;top:0.2vh;background: url("http://goss.fexteam.com/files/d_30/images/common/gou.png");background-size: 3vh 3vh;}
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItem .selectText{float: left;margin-left: 0.4vh;}
+
+
+
+.waiting{position: fixed;width:100%;height:100%;top:0;left:0;z-index: 111;} 
+.waiting .waitingBack{position: fixed;width:100%;height:100%;top:0;left:0;background: #000;opacity:.5;} 

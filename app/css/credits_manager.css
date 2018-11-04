@@ -1,0 +1,45 @@
+.credits-tag a.active {
+    color: #ecc200;
+}
+
+.credits-table {
+    width: 100%;
+}
+.credits-table th,.credits-table td {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+}
+.credits-table th {
+    color: #ecc200;
+}
+
+.credits-table td.trend-red {
+  	color: #FF0000;
+}
+
+.credits-table td.trend-green {
+  	color: #00FF00;
+}
+
+.credits-table td img {
+  width: 5vh;
+  height: 5vh;
+}
+
+.credits-table td .btn1, .credits-table td .btn2 {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.credits-table td .btn1 {
+    background: url("/app/img/button1.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}
+.credits-table td .btn2 {
+    background: url("/app/img/button2.png") no-repeat 0 0;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,225 @@
+.limit-width {max-width: 800px;margin:0 auto;}
+.aui-bar-nav {line-height: normal;height: 55px;min-height:45px;padding: 5px 10px;background-color: #191919}
+header.header-user-info {position:fixed;z-index:100;background-color:rgba(0,0,0,.5)}
+.head-left {float: left}
+.head-right {float: right;height: 45px;line-height: 45px;}
+.media-img {height: 45px;width: 45px;float: left;margin-right: 10px}
+.media-img img {border-radius: 50%}
+.media-txt {float: left;font-size: 14px;text-align: left}
+.media-txt-title {color: #fff;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;max-width: 115px;}
+.media-txt-title a {overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.media-txt-content {color:#ebd300;}
+.media-txt-content .media-txt-app {position: relative;display: block;line-height: 20px;height: 20px}
+.media-txt-content .media-txt-app i {font-size: 12px;font-style: normal;line-height: 20px}
+.golden-btn {padding: 5px 10px;font-size: 14px;background-image: linear-gradient(to bottom,#fef8f7,#cc9e39);background-image: -webkit-linear-gradient(top,#fef8f7,#cc9e39);background-image: -o-linear-gradient(top,#fef8f7,#cc9e39);background-image: -moz-linear-gradient(top,#fef8f7,#cc9e39);border-radius: 22px;border: 1px solid #a25f47;border-top: 1px solid #cc9333;border-bottom: 1px solid #4b3111;margin-left:5px;}
+a.golden-btn {color: #583000}
+.line-btn {padding: 2px 5px;border: 1px solid #c49c35;margin-left: 5px;border-radius: 4px;}
+a.line-btn {color:#c49c35;}
+a.login_btn {float: left;margin-top:10px;font-size: 18px}
+.diamond-img {height: 20px;width: auto;vertical-align: middle;display: inline-block;}
+.right {float: right !important;}
+.btn-small {font-size: 12px;padding: 10px 14px;color: #000;border:1px solid #333;border-radius: 3px;background-color: #fff}
+.aui-dialog a.btn-small {color: #333}
+.clearfix:after {content:"";display: table;clear:both;}
+.aui-grid [class*=aui-col-xs-]:active {background-color: transparent;}
+.color-yellow {color:yellow;}
+/* 斗地主 */
+.main.ddz {background: url(../images/ddz/bg.jpg) no-repeat center top;background-size: cover;}
+.ddz-header-user {position: fixed;z-index: 100;background:linear-gradient(to bottom,#ee891c,#5d2e21);background:-webkit-linear-gradient(top,#ee891c,#5d2e21);background:-moz-linear-gradient(top,#ee891c,#5d2e21);background:-o-linear-gradient(top,#ee891c,#5d2e21);}
+.ddz .bg-create {background: url(../images/ddz/bg-create.png) no-repeat center bottom;background-size: 100% auto}
+.ddz .bg-join {background: url(../images/ddz/bg-join.png) no-repeat center bottom;background-size: 100% auto}
+.ddz .game-btns {position: absolute;bottom: 80px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.ddz .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 12.2rem;position: relative;}
+.ddz .game-btns .game-btns-item:last-child {float: right;}
+.ddz .game-btns .game-btn {width: 78%;height: 1.8rem;display: inline-block;position: absolute;bottom: 3.5rem;left: 0;right: 0;margin: 0 auto;}
+.ddz .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.ddz .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;border-radius: 0.9rem;}
+.ddz .game-btns .game-btn.action-create {background: url(../images/ddz/btn-create.png) no-repeat center top;background-size: 100% auto}
+.ddz .game-btns .game-btn.action-join {background: url(../images/ddz/btn-join.png) no-repeat center top;background-size: 100% auto}
+.ddz #footer.game {background: url(../images/ddz/bg-nav.png) no-repeat center top;background-size: 100% 100%;padding:5px 2px 0;}
+.ddz #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 十三水 */
+.main.sss {background: url(../images/sss/bg.jpg?v=1.0.2) no-repeat center top;background-size: cover;}
+.sss-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.sss-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background-color: rgba(255,255,255,0.5)}
+.sss .bg-create {background: url(../images/sss/bg-create.png) no-repeat center top;background-size: 100% auto}
+.sss .bg-join {background: url(../images/sss/bg-join.png) no-repeat center top;background-size: 100% auto}
+.sss .game-btns {position: absolute;bottom: 84px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.sss .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 13.2rem;position: relative;}
+.sss .game-btns .game-btns-item:last-child {float: right;}
+.sss .game-btns .game-btn {width: 71%;height: 1.8rem;display: inline-block;position: absolute;bottom: 2.5rem;left: 0;right: 0;margin: 0 auto;}
+.sss .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.sss .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;}
+.sss .game-btns .game-btn.action-create {background: url(../images/sss/btn-create.png) no-repeat center top;background-size: 100% auto}
+.sss .game-btns .game-btn.action-join {background: url(../images/sss/btn-join.png) no-repeat center top;background-size: 100% auto}
+.sss #footer.game {background: url(../images/sss/bg-nav.jpg) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.sss #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+/* 新十三水 */
+.main.newsss {background: url(../images/newsss/bg.jpg) no-repeat center top;background-size: cover;}
+.newsss-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.newsss-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background-color: rgba(255,255,255,0.5)}
+.newsss .bg-create {background: url(../images/newsss/bg-create.png) no-repeat center top;background-size: 100% auto}
+.newsss .bg-join {background: url(../images/newsss/bg-join.png) no-repeat center top;background-size: 100% auto}
+.newsss .game-btns {position: absolute;bottom: 84px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.newsss .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 13.2rem;position: relative;}
+.newsss .game-btns .game-btns-item:last-child {float: right;}
+.newsss .game-btns .game-btn {width: 71%;height: 1.8rem;display: inline-block;position: absolute;bottom: 2.5rem;left: 0;right: 0;margin: 0 auto;}
+.newsss .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.newsss .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;}
+.newsss .game-btns .game-btn.action-create {background: url(../images/newsss/btn-create.png) no-repeat center top;background-size: 100% auto}
+.newsss .game-btns .game-btn.action-join {background: url(../images/newsss/btn-join.png) no-repeat center top;background-size: 100% auto}
+.newsss #footer.game {background: url(../images/newsss/bg-nav.jpg) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.newsss #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 血战麻将 */
+.main.xzmajiang {background: url(../images/xzmajiang/bg.jpg) no-repeat center top;background-size: cover;}
+.xzmajiang-header-user {position: fixed;z-index: 100;background:linear-gradient(to bottom,#ee891c,#5d2e21);background:-webkit-linear-gradient(top,#ee891c,#5d2e21);background:-moz-linear-gradient(top,#ee891c,#5d2e21);background:-o-linear-gradient(top,#ee891c,#5d2e21);}
+.xzmajiang .bg-create {background: url(../images/xzmajiang/bg-create.png) no-repeat center bottom;background-size: 100% auto}
+.xzmajiang .bg-join {background: url(../images/xzmajiang/bg-join.png) no-repeat center bottom;background-size: 100% auto}
+.xzmajiang .game-btns {position: absolute;bottom: 80px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.xzmajiang .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 12.2rem;position: relative;}
+.xzmajiang .game-btns .game-btns-item:last-child {float: right;}
+.xzmajiang .game-btns .game-btn {width: 78%;height: 1.8rem;display: inline-block;position: absolute;bottom: 3.5rem;left: 0;right: 0;margin: 0 auto;}
+.xzmajiang .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.xzmajiang .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;border-radius: 0.9rem;}
+.xzmajiang .game-btns .game-btn.action-create {background: url(../images/xzmajiang/btn-create.png) no-repeat center top;background-size: 100% auto}
+.xzmajiang .game-btns .game-btn.action-join {background: url(../images/xzmajiang/btn-join.png) no-repeat center top;background-size: 100% auto}
+.xzmajiang #footer.game {background: url(../images/xzmajiang/bg-nav.png) no-repeat center top;background-size: 100% 100%;padding:5px 2px 0;}
+.xzmajiang #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 牛牛 */
+.main.niuniu {background: url(../images/niuniu/bg.jpg) no-repeat center top;background-size: cover;}
+.niuniu-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.niuniu-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background:linear-gradient(to right,#44e2fa,#fff,#f9afcf);background:-webkit-linear-gradient(left,#44e2fa,#fff,#f9afcf);background:-moz-linear-gradient(left,#44e2fa,#fff,#f9afcf);background:-o-linear-gradient(left,#44e2fa,#fff,#f9afcf);opacity: .9}
+.niuniu .bg-create {background: url(../images/niuniu/bg-create.png) no-repeat center top;background-size: 100% auto}
+.niuniu .bg-join {background: url(../images/niuniu/bg-join.png) no-repeat center top;background-size: 100% auto}
+.niuniu .game-btns {position: absolute;bottom: 84px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.niuniu .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 13.2rem;position: relative;}
+.niuniu .game-btns .game-btns-item:last-child {float: right;}
+.niuniu .game-btns .game-btn {width: 71%;height: 1.8rem;display: inline-block;position: absolute;bottom: 2.5rem;left: 0;right: 0;margin: 0 auto;}
+.niuniu .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.niuniu .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;border-radius: 0.9rem;}
+.niuniu .game-btns .game-btn.action-create {background: url(../images/niuniu/btn-create.png) no-repeat center top;background-size: 100% auto}
+.niuniu .game-btns .game-btn.action-join {background: url(../images/niuniu/btn-join.png) no-repeat center top;background-size: 100% auto}
+.niuniu #footer.game {background: url(../images/niuniu/bg-nav.png) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.niuniu #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 12牛牛 */
+.main.nn12 {background: url(../images/nn12/bg.jpg?v=1.0.1) no-repeat center top;background-size: cover;}
+.nn12-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.nn12-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background:linear-gradient(to right,#44e2fa,#fff,#f9afcf);background:-webkit-linear-gradient(left,#44e2fa,#fff,#f9afcf);background:-moz-linear-gradient(left,#44e2fa,#fff,#f9afcf);background:-o-linear-gradient(left,#44e2fa,#fff,#f9afcf);opacity: .9}
+.nn12 .bg-create {background: url(../images/nn12/bg-create.png) no-repeat center top;background-size: 100% auto}
+.nn12 .bg-join {background: url(../images/nn12/bg-join.png) no-repeat center top;background-size: 100% auto}
+.nn12 .game-btns {position: absolute;bottom: 84px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.nn12 .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 13.2rem;position: relative;}
+.nn12 .game-btns .game-btns-item:last-child {float: right;}
+.nn12 .game-btns .game-btn {width: 71%;height: 1.8rem;display: inline-block;position: absolute;bottom: 2.5rem;left: 0;right: 0;margin: 0 auto;}
+.nn12 .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.nn12 .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;border-radius: 0.9rem;}
+.nn12 .game-btns .game-btn.action-create {background: url(../images/nn12/btn-create.png) no-repeat center top;background-size: 100% auto}
+.nn12 .game-btns .game-btn.action-join {background: url(../images/nn12/btn-join.png) no-repeat center top;background-size: 100% auto}
+.nn12 #footer.game {background: url(../images/nn12/bg-nav.png) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.nn12 #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 六人牛牛 */
+.main.lrnn {background: url(../images/lrnn/bg.jpg) no-repeat center top;background-size: cover;}
+.lrnn-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.lrnn-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background:linear-gradient(to right,#44e2fa,#fff,#f9afcf);background:-webkit-linear-gradient(left,#44e2fa,#fff,#f9afcf);background:-moz-linear-gradient(left,#44e2fa,#fff,#f9afcf);background:-o-linear-gradient(left,#44e2fa,#fff,#f9afcf);opacity: .9}
+.lrnn .bg-create {background: url(../images/lrnn/bg-create.png) no-repeat center top;background-size: 100% auto}
+.lrnn .bg-join {background: url(../images/lrnn/bg-join.png) no-repeat center top;background-size: 100% auto}
+.lrnn .game-btns {position: absolute;bottom: 84px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.lrnn .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 12.2rem;position: relative;}
+.lrnn .game-btns .game-btns-item:last-child {float: right;}
+.lrnn .game-btns .game-btn {width: 71%;height: 1.8rem;display: inline-block;position: absolute;bottom: 3.5rem;left: 0;right: 0;margin: 0 auto 0 1.3rem}
+.lrnn .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.lrnn .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;border-radius: 0.9rem;}
+.lrnn .game-btns .game-btn.action-create {background: url(../images/lrnn/btn-create.png) no-repeat center top;background-size: 100% auto}
+.lrnn .game-btns .game-btn.action-join {background: url(../images/lrnn/btn-join.png) no-repeat center top;background-size: 100% auto}
+.lrnn #footer.game {background: url(../images/lrnn/bg-nav.png) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.lrnn #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 疯狂牛牛 */
+.main.fknn {background: url(../images/fknn/bg.jpg) no-repeat center top;background-size: cover;}
+.fknn-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.fknn-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background-color: rgba(255,255,255,0.5)}
+.fknn .bg-create {background: url(../images/fknn/bg-create.png) no-repeat center top;background-size: 100% auto}
+.fknn .bg-join {background: url(../images/fknn/bg-join.png) no-repeat center top;background-size: 100% auto}
+.fknn .game-btns {position: absolute;bottom: 84px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.fknn .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 12.2rem;position: relative;}
+.fknn .game-btns .game-btns-item:last-child {float: right;}
+.fknn .game-btns .game-btn {width: 71%;height: 1.8rem;display: inline-block;position: absolute;bottom: 3.5rem;left: 0;right: 0;margin: 0 auto;}
+.fknn .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.fknn .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;}
+.fknn .game-btns .game-btn.action-create {background: url(../images/fknn/btn-create.png) no-repeat center top;background-size: 100% auto}
+.fknn .game-btns .game-btn.action-join {background: url(../images/fknn/btn-join.png) no-repeat center top;background-size: 100% auto}
+.fknn #footer.game {background: url(../images/fknn/bg-nav.jpg) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.fknn #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 拼三张 */
+.main.pinsz {background: url(../images/pinsz/bg.jpg?v=1.0.1) no-repeat center top;background-size: cover;}
+.pinsz-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.pinsz-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background-color: rgba(255,255,255,0.5)}
+.pinsz .bg-create {background: url(../images/pinsz/bg-create.png) no-repeat center top;background-size: 100% auto}
+.pinsz .bg-join {background: url(../images/pinsz/bg-join.png) no-repeat center top;background-size: 100% auto}
+.pinsz .game-btns {position: absolute;bottom: 80px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.pinsz .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 12.2rem;position: relative;}
+.pinsz .game-btns .game-btns-item:last-child {float: right;}
+.pinsz .game-btns .game-btn {width: 78%;height: 1.8rem;display: inline-block;position: absolute;bottom: 3.5rem;left: 0;right: 0;margin: 0 auto;}
+.pinsz .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.pinsz .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;}
+.pinsz .game-btns .game-btn.action-create {background: url(../images/pinsz/btn-create.png) no-repeat center top;background-size: 100% auto}
+.pinsz .game-btns .game-btn.action-join {background: url(../images/pinsz/btn-join.png) no-repeat center top;background-size: 100% auto}
+.pinsz #footer.game {background: url(../images/pinsz/bg-nav.jpg) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.pinsz #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 九人拼三张 */
+.main.jrpinsz {background: url(../images/jrpinsz/bg.jpg?v=1.0.1) no-repeat center top;background-size: cover;}
+.jrpinsz-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.jrpinsz-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background-color: rgba(255,255,255,0.5)}
+.jrpinsz .bg-create {background: url(../images/jrpinsz/bg-create.png) no-repeat center top;background-size: 100% auto}
+.jrpinsz .bg-join {background: url(../images/jrpinsz/bg-join.png) no-repeat center top;background-size: 100% auto}
+.jrpinsz .game-btns {position: absolute;bottom: 80px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.jrpinsz .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 12.2rem;position: relative;}
+.jrpinsz .game-btns .game-btns-item:last-child {float: right;}
+.jrpinsz .game-btns .game-btn {width: 78%;height: 1.8rem;display: inline-block;position: absolute;bottom: 3.5rem;left: 0;right: 0;margin: 0 auto;}
+.jrpinsz .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.jrpinsz .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;}
+.jrpinsz .game-btns .game-btn.action-create {background: url(../images/jrpinsz/btn-create.png) no-repeat center top;background-size: 100% auto}
+.jrpinsz .game-btns .game-btn.action-join {background: url(../images/jrpinsz/btn-join.png) no-repeat center top;background-size: 100% auto}
+.jrpinsz #footer.game {background: url(../images/jrpinsz/bg-nav.jpg) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.jrpinsz #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 九人牛牛 */
+.main.jrnn {background: url(../images/jrnn/bg.jpg) no-repeat center top;background-size: cover;}
+.jrnn-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.jrnn-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background:linear-gradient(to right,#44e2fa,#fff,#f9afcf);background:-webkit-linear-gradient(left,#44e2fa,#fff,#f9afcf);background:-moz-linear-gradient(left,#44e2fa,#fff,#f9afcf);background:-o-linear-gradient(left,#44e2fa,#fff,#f9afcf);opacity: .9}
+.jrnn .bg-create {background: url(../images/jrnn/bg-create.png) no-repeat center top;background-size: 100% auto}
+.jrnn .bg-join {background: url(../images/jrnn/bg-join.png) no-repeat center top;background-size: 100% auto}
+.jrnn .game-btns {position: absolute;bottom: 65px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.jrnn .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 12rem;position: relative;}
+.jrnn .game-btns .game-btns-item:last-child {float: right;}
+.jrnn .game-btns .game-btn {width: 92%;height: 2.1rem;display: inline-block;position: absolute;bottom: 2.55rem;left: 0;right: 0;margin: 0 auto;}
+.jrnn .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.jrnn .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;border-radius: 0.9rem;}
+.jrnn .game-btns .game-btn.action-create {background: url(../images/jrnn/btn-create.png) no-repeat center top;background-size: 100% auto}
+.jrnn .game-btns .game-btn.action-join {background: url(../images/jrnn/btn-join.png) no-repeat center top;background-size: 100% auto}
+.jrnn #footer.game {background: url(../images/jrnn/bg-nav.png) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.jrnn #footer.game a.aui-bar-tab-item { color:#58e5fb;}
+
+/* 三公 */
+.main.sangong {background: url(../images/sangong/bg.jpg?v=1.0.1) no-repeat center top;background-size: cover;}
+.sangong-header-user {position: fixed;z-index: 100;background:rgba(255,255,255,0.1);}
+.sangong-header-user:after {content:"";position: absolute;display: block;left:0;bottom:0;height:2px;width:100%;background-color: rgba(255,255,255,0.5)}
+.sangong .bg-create {background: url(../images/sangong/bg-create.png) no-repeat center top;background-size: 100% auto}
+.sangong .bg-join {background: url(../images/sangong/bg-join.png) no-repeat center top;background-size: 100% auto}
+.sangong .game-btns {position: absolute;bottom: 80px;width: 100%;max-width: 800px;left: 0;right: 0;margin: 0 auto;padding: 0 7%;}
+.sangong .game-btns .game-btns-item {width: 46%;float: left;text-align: center;height: 12.2rem;position: relative;}
+.sangong .game-btns .game-btns-item:last-child {float: right;}
+.sangong .game-btns .game-btn {width: 78%;height: 1.8rem;display: inline-block;position: absolute;bottom: 3.5rem;left: 0;right: 0;margin: 0 auto;}
+.sangong .game-btns .game-btn.click {-webkit-transform: scale(.95,.95);-moz-transform: scale(.95,.95);-ms-transform: scale(.95,.95);-o-transform: scale(.95,.95);transform: scale(.95,.95);}
+.sangong .game-btns .game-btn.click:before {content:"";position: absolute;left:0;top:0;height: 100%;width: 100%;opacity: 0.2;background-color: #000;}
+.sangong .game-btns .game-btn.action-create {background: url(../images/sangong/btn-create.png) no-repeat center top;background-size: 100% auto}
+.sangong .game-btns .game-btn.action-join {background: url(../images/sangong/btn-join.png) no-repeat center top;background-size: 100% auto}
+.sangong #footer.game {background: url(../images/sangong/bg-nav.jpg) no-repeat center top;background-size: 100% 100%;padding-top: 4px}
+.sangong #footer.game a.aui-bar-tab-item { color:#58e5fb;}

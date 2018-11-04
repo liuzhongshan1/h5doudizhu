@@ -1,0 +1,78 @@
+
+
+.backImg{width: 100%;height: 100%;position: fixed;top:0;left:0;background: url("http://goss.fexteam.com/files/common/images/home40/home.jpg");background-size:100vw 100vh; }
+.topImg{width:61vw;position: fixed;height:17vw;top:3vw;left:4vw;z-index:99;background: url("http://goss.fexteam.com/files/common/images/home40/info.png");background-size:61vw 17vw;}
+
+
+
+.user{top:0;left:0;width: 70%;position: fixed;z-index:99;}
+.user .avatar{border-radius:8vw;float: left;position: relative;z-index: 50;width:15.7vw;height:15.7vw;margin-left:4.6vw;margin-top:3.8vw;}
+.user .name{color: #fff;font-size: 3.5vw;float: left;position: relative;z-index: 49;margin-top:6.7vw;margin-left:4vw;max-width:30vw;overflow: hidden;height: 5vw;line-height: 5vw; }
+
+.roomCard{top:0;left:24vw;width: 26%;position:fixed;z-index:99;}
+.roomCard img{position: relative;float: left;z-index: 50;height:5vw;margin-top:12.4vw;}
+.roomCard .num{position: relative;color:#ffb306;font-size: 3vw;border-radius:4vw;padding: .8vw 4vw;float: left;margin-left: -2vw;z-index: 49;margin-top:12vw; background: rgba(0,0,0,0.5);}
+
+.gameTitle{position: fixed;z-index:99;top:1vw;right:7vw;background: url("http://goss.fexteam.com/files/common/images/home40/title.png");width: 11vw;height:22vw;background-size:12vw 22vw;}
+
+.game{height:270vw;}
+
+.game .img0{top:24vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/ba.png");}
+.game .img1{top:24vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/fa.png");}
+.game .img2{top:69vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/sa.png");}
+.game .img3{top:69vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/pa.png");}
+.game .img33{top:114vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/dice.png");}
+.game .img15{top:114vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/home40/point21.png");}
+.game .img7{top:159vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/28.png");}
+.game .img27{top:159vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/home/40runfast.png");}
+.game .img30{top:204vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/tex.png");}
+.game .img{width: 36vw;position: absolute;height:42vw;background-size:36vw 42vw;}
+
+.game .free0{top:55vw;left:12vw;background: url("http://goss.fexteam.com/files/images/common/freegame11.png");}
+.game .free1{top:55vw;right:12vw;background: url("http://goss.fexteam.com/files/images/common/freegame11.png");}
+.game .free2{top:100vw;left:12vw;background: url("http://goss.fexteam.com/files/images/common/freegame11.png");}
+.game .free3{top:100vw;right:12vw;background: url("http://goss.fexteam.com/files/images/common/freegame11.png");}
+.game .free4{top:145vw;left:12vw;background: url("http://goss.fexteam.com/files/images/common/freegame11.png");}
+.game .free5{top:145vw;right:12vw;background: url("http://goss.fexteam.com/files/images/common/freegame11.png");}
+.game .free6{top:190vw;left:12vw;background: url("http://goss.fexteam.com/files/images/common/freegame11.png");}
+.game .free7{top:190vw;right:12vw;background: url("http://goss.fexteam.com/files/images/common/freegame11.png");}
+
+.game .free{width: 30vw;position: absolute;height:8vw;background-size:30vw 8vw;bottom: 3.5vw;left: 50%;margin-left: -15vw;}
+
+.bullPart{position: fixed;bottom:128vw;left: 0;width:100%;height: 128vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/back.png");background-size:100% 100%;margin-bottom: -128vw;-webkit-transition:all .4s; transition:all .4s;overflow: scroll;}
+.bullPart .imgB{top:6vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/b6.png");}
+.bullPart .imgB9{top:6vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/b9.png");}
+.bullPart .imgBr{top:46vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/bs.png");}
+.bullPart .imgB12{top:46vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/b12.png");}
+.bullPart .imgFb{top:86vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/bf.png");}
+.bullPart .imgBn{top:86vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/bn.png");}
+
+.flowerPart{position: fixed;bottom:128vw;left: 0;width:100%;height: 128vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/back.png");background-size:100% 100%;margin-bottom: -128vw;-webkit-transition:all .4s; transition:all .4s;overflow: scroll;}
+.flowerPart .imgF{top:6vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/f6.png");}
+.flowerPart .imgF9{top:6vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/f9.png");}
+.flowerPart .imgBF{top:46vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/home/40bff.png");}
+.flowerPart .imgFF{top:46vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/home/40fff.png");}
+.flowerPart .imgSF{top:86vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/home/40sff.png");}
+
+.paijiuPart{position: fixed;bottom:48vw;left: 0;width:100%;height: 48vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/back.png");background-size:100% 100%;margin-bottom: -48vw;-webkit-transition:all .6s; transition:all .6s;}
+.paijiuPart .imgPj8{top:6vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/p8.png");}
+.paijiuPart .imgPj9{top:6vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/pj.png");}
+
+.dicePart{position: fixed;bottom:48vw;left: 0;width:100%;height: 48vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/back.png");background-size:100% 100%;margin-bottom: -48vw;-webkit-transition:all .6s; transition:all .6s;}
+.dicePart .imgBd{top:6vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/bulldice.png");}
+.dicePart .imgSd{top:6vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/superdice.png");}
+
+.sangongPart{position: fixed;bottom:128vw;left: 0;width:100%;height: 128vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/back.png");background-size:100% 100%;margin-bottom: -128vw;-webkit-transition:all .6s; transition:all .6s;}
+.sangongPart .imgSj{top:6vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/jx.png");}
+.sangongPart .imgS{top:6vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/sg6.png");}
+.sangongPart .imgS9{top:46vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/sg9.png");}
+.sangongPart .imgS1{top:46vw;right:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/31.png");}
+.sangongPart .imgSgB{top:86vw;left:9vw;background: url("http://goss.fexteam.com/files/common/images/homeNew40/sgb.png");}
+
+.hide{bottom:0;}
+.part .img{width: 38vw;position: absolute;height:38vw;background-size:38vw 38vw;}
+.partBack{position: fixed;height:100%;width: 100%;top:0;left: 0;background: #000;opacity: .5;display: none;}
+
+
+
+

@@ -1,0 +1,738 @@
+.sangong9-fk{position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: rgb(0, 0, 0); opacity: 0.6; border-radius: 1.5vh;}
+.sangong9-fk1{position: relative; padding: 0px 1.5vh 0px 5vh;}
+.cardDeal .sangong9-index2{z-index: 14; display: none;}
+.cardDeal .sangong9-index1{z-index: 15; display: none;}
+.cardDeal .sangong9-index3{z-index: 13; display: none;}
+
+.cardOver .sangong9-index2{z-index: 9; display: none;}
+.cardOver .sangong9-index4{z-index: 11; display: none;}
+.cardOver .sangong9-index3{z-index: 10; display: none;}
+.sangong9-index4s{z-index: 12; display: none;}
+.sangong9-memberScoreText2{  color: white; font-size: 3vh; font-family: &quot;Helvetica 微软雅黑&quot;; -webkit-text-stroke: 1.3px; text-shadow: rgb(2, 32, 85) 1px 2px 2px; display: none;}
+.sangong9-memberScoreText1{  color: rgb(234, 171, 55); font-size: 3vh; font-family: &quot;Helvetica 微软雅黑&quot;; -webkit-text-stroke: 1.3px; text-shadow: rgb(120, 42, 0) 1px 2px 2px; display: none;}
+.sangong9-banker0{position: absolute; top: -0.2vh; left: -0.2vh; width: 6.4vh; height: 6.4vh; display: none;}
+.sangong9-background{position: absolute; top: -6%; left: -6%; width: 2.6vh; height: 2.6vh; display: none;}
+.sangong9-bankerAnimate1{position: absolute; top: -0.2vh; left: -0.2vh; width: 6.4vh; height: 6.4vh; display: none;}
+.sangong9-memberCoin{position: absolute;width: 2.5vh;height: 2.5vh; z-index: 100}
+.sangong9-Text{position: absolute;top: 33%;left: 0px;width: 100%;height: 30px;}
+.sangong9-ziti{color: white;font-size: 10pt;width: 100%;height: 30px;line-height: 30px;text-align: center;font-family: "Helvetica 微软雅黑";}
+.cardDeal .cardopen {
+    background: url(/app/files/d_10/images/game/cards.jpg);
+    background-size: 59.8vh 25.6vh;
+    box-shadow: 1px 1px 5px #333;
+}
+
+
+.clock{width: 40px;height:42px;top:40%;left:50%;margin-top:-26px;margin-left: -20px;position: absolute;background:url("http://goss.fexteam.com/files/d_10/images/game/time.png");background-size:40px 53px;text-align: center;line-height: 42px;font-size: 18px;padding-top: 11px;}
+.jiurenniuniu-qiangzhuang{position: absolute; top: 32%;}
+
+
+
+
+
+.cardDeal .cardA1{background-position: 0 -19.2vh;}
+.cardDeal .cardA2{background-position: -4.6vh -19.2vh;}
+.cardDeal .cardA3{background-position: -9.2vh -19.2vh;}
+.cardDeal .cardA4{background-position: -13.8vh -19.2vh;}
+.cardDeal .cardA5{background-position: -18.4vh -19.2vh;}
+.cardDeal .cardA6{background-position: -23vh -19.2vh;}
+.cardDeal .cardA7{background-position: -27.6vh -19.2vh;}
+.cardDeal .cardA8{background-position: -32.2vh -19.2vh;}
+.cardDeal .cardA9{background-position: -36.8vh -19.2vh;}
+.cardDeal .cardA10{background-position: -41.4vh -19.2vh;}
+.cardDeal .cardA11{background-position: -46vh -19.2vh;}
+.cardDeal .cardA12{background-position: -50.6vh -19.2vh;}
+.cardDeal .cardA13{background-position: -55.2vh -19.2vh;}
+.cardDeal .cardB1{background-position: 0 -12.8vh;}
+.cardDeal .cardB2{background-position: -4.6vh -12.8vh;}
+.cardDeal .cardB3{background-position: -9.2vh -12.8vh;}
+.cardDeal .cardB4{background-position: -13.8vh -12.8vh;}
+.cardDeal .cardB5{background-position: -18.4vh -12.8vh;}
+.cardDeal .cardB6{background-position: -23vh -12.8vh;}
+.cardDeal .cardB7{background-position: -27.6vh -12.8vh;}
+.cardDeal .cardB8{background-position: -32.2vh -12.8vh;}
+.cardDeal .cardB9{background-position: -36.8vh -12.8vh;}
+.cardDeal .cardB10{background-position: -41.4vh -12.8vh;}
+.cardDeal .cardB11{background-position: -46vh -12.8vh;}
+.cardDeal .cardB12{background-position: -50.6vh -12.8vh;}
+.cardDeal .cardB13{background-position: -55.2vh -12.8vh;}
+.cardDeal .cardC1{background-position: 0 0;}
+.cardDeal .cardC2{background-position: -4.6vh 0;}
+.cardDeal .cardC3{background-position: -9.2vh  0;}
+.cardDeal .cardC4{background-position: -13.8vh 0;}
+.cardDeal .cardC5{background-position: -18.4vh 0;}
+.cardDeal .cardC6{background-position: -23vh 0;}
+.cardDeal .cardC7{background-position: -27.6vh 0;}
+.cardDeal .cardC8{background-position: -32.2vh 0;}
+.cardDeal .cardC9{background-position: -36.8vh 0;}
+.cardDeal .cardC10{background-position: -41.4vh 0;}
+.cardDeal .cardC11{background-position: -46vh 0;}
+.cardDeal .cardC12{background-position: -50.6vh 0;}
+.cardDeal .cardC13{background-position: -55.2vh 0;}
+.cardDeal .cardD1{background-position: 0 -6.4vh;}
+.cardDeal .cardD2{background-position: -4.6vh -6.4vh;}
+.cardDeal .cardD3{background-position: -9.2vh -6.4vh;}
+.cardDeal .cardD4{background-position: -13.8vh -6.4vh;}
+.cardDeal .cardD5{background-position: -18.4vh -6.4vh;}
+.cardDeal .cardD6{background-position: -23vh -6.4vh;}
+.cardDeal .cardD7{background-position: -27.6vh -6.4vh;}
+.cardDeal .cardD8{background-position: -32.2vh -6.4vh;}
+.cardDeal .cardD9{background-position: -36.8vh -6.4vh;}
+.cardDeal .cardD10{background-position: -41.4vh -6.4vh;}
+.cardDeal .cardD11{background-position: -46vh -6.4vh;}
+.cardDeal .cardD12{background-position: -50.6vh -6.4vh;}
+.cardDeal .cardD13{background-position: -55.2vh -6.4vh;}
+
+
+  .emojiSay{
+    position: absolute;
+    z-index: 97;
+    background: url(http://cdn.euo69.cn/app/img/emoji/emoji.png?v=0224);
+    width: 23.5px;
+    height: 18.5px;
+    background-size: 470px 18.5px;
+  }
+  .emojiSay1{top:76%;left: 58%;}
+  .emojiSay2{top:35%;right: 14%;}
+  .emojiSay3{top:18%;right: 14%;}
+  .emojiSay4{top:6%;left: 55.5%;}
+  .emojiSay5{top:18%;left: 17%;}
+  .emojiSay6{top:35%;left: 17%;}
+  
+  
+  @keyframes emojiImage{
+    from {
+      width: 4.7px;
+      height: 3.7px;
+      background-size: 94px 3.7px;
+    }
+    
+    to {
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    }
+  }
+  
+  
+  
+  
+  .yuyinButton{
+    position: absolute;
+    right: 25px;
+    top: 4vh;
+    z-index: 999;
+    width: 90px;
+    height: 4.5vh;
+  }
+  
+  .yuyinButtonImg{
+    background: url(http://cdn.euo69.cn/app/img/emoji/yuyinButton.png);
+    background-size: 90px 4.5vh;
+  }
+  
+  
+  .emojiButton{
+    position: absolute;
+    left: 25px;
+    top: 4vh;
+    z-index: 999;
+    width: 90px;
+    height: 4.5vh;
+   
+  }
+  
+  .emojiButtonImg{
+    background: url(http://cdn.euo69.cn/app/img/emoji/emojiButton.png);
+    background-size: 90px 4.5vh;
+  }
+  .emojiItem{
+    background: url(http://cdn.euo69.cn/app/img/emoji/emoji.png?v=0224);
+    width: 47px;
+    height: 37px;
+    background-size: 940px 37px;
+  }
+  
+  .emojiItem0{
+    position: absolute;
+    background-position: 0px 0;
+  }
+  .emojiItem1{
+    position: absolute;
+    left: 47px;
+    top: 0;
+    background-position: -47px 0;
+   
+  }
+  
+  
+  .emojiItem2{
+    position: absolute;
+    left: 94px;
+    top: 0;
+    background-position: -94px 0;
+  }
+  .emojiItem3{
+    position: absolute;
+    left: 141px;
+    top: 0;
+    background-position: -141px 0;
+  }
+  .emojiItem4{
+    position: absolute;
+    left: 188px;
+    top: 0;
+    background-position: -188px 0;
+  }
+  .emojiItem5{
+    position: absolute;
+    left: 0px;
+    top: 47px;
+    background-position: -235px 0;
+  }
+  .emojiItem6{
+    position: absolute;
+    left: 47px;
+    top: 47px;
+    background-position: -282px 0;
+  }
+  .emojiItem7{
+    position: absolute;
+    left: 94px;
+    top: 47px;
+    background-position: -329px 0;
+  }
+  .emojiItem8{
+    position: absolute;
+    left: 141px;
+    top: 47px;
+    background-position: -376px 0;
+  }
+  .emojiItem9{
+    position: absolute;
+    left: 188px;
+    top: 47px;
+    background-position: -423px 0;
+  }
+  
+  .emojiItem10{
+    position: absolute;
+    left: 0px;
+    top: 94px;
+    background-position: 470px 0px;
+  }
+  .emojiItem11{
+    position: absolute;
+    left: 47px;
+    top: 94px;
+    background-position: -517px 0px;
+  }
+  .emojiItem12{
+    position: absolute;
+    left: 94px;
+    top: 94px;
+    background-position: -564px 0px;
+  }
+  .emojiItem13{
+    position: absolute;
+    left: 141px;
+    top: 94px;
+    background-position: -611px 0px;
+  }
+  .emojiItem14{
+    position: absolute;
+    left: 188px;
+    top: 94px;
+    background-position: -658px 0px;
+  }
+  .emojiItem15{
+    position: absolute;
+    left: 0px;
+    top: 141px;
+    background-position: -705px 0px;
+  }
+  .emojiItem16{
+    position: absolute;
+    left: 47px;
+    top: 141px;
+    background-position: -752px 0px;
+  }
+  .emojiItem17{
+    position: absolute;
+    left: 94px;
+    top: 141px;
+    background-position: -799px 0px;
+  }
+  .emojiItem18{
+    position: absolute;
+    left: 141px;
+    top: 141px;
+    background-position: -846px 0px;
+  }
+  .emojiItem19{
+    position: absolute;
+    left: 188px;
+    top: 141px;
+    background-position: -893px 0px;
+  }
+  
+  .emojiItemA0{
+    animation:emojiImageA0 0.5s;
+    animation-fill-mode:forwards;
+    background-position: 0 0;
+  }
+  .emojiItemA1{
+    animation:emojiImageA1 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -23.5px 0;
+  }
+  
+  .emojiItemA2{
+    animation:emojiImageA2 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -47px 0;
+  }
+  .emojiItemA3{
+    animation:emojiImageA3 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -70.5px 0;
+  }
+  .emojiItemA4{
+    animation:emojiImageA4 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -94px 0;
+  }
+  .emojiItemA5{
+    animation:emojiImageA5 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -117.5px 0;
+  }
+  .emojiItemA6{
+    animation:emojiImageA6 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -141px 0;
+  }
+  .emojiItemA7{
+    animation:emojiImageA7 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -164.5px 0;
+  }
+  .emojiItemA8{
+    animation:emojiImageA8 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -188px 0;
+  }
+  .emojiItemA9{
+    animation:emojiImageA9 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -211.5px 0;
+  }
+  
+  .emojiItemA10{
+    animation:emojiImageA10 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -235px 0;
+  }
+  .emojiItemA11{
+    animation:emojiImageA11 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -258.5px 0;
+  }
+  .emojiItemA12{
+    animation:emojiImageA12 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -282px 0;
+  }
+  .emojiItemA13{
+    animation:emojiImageA13 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -305.5px 0;
+  }
+  .emojiItemA14{
+    animation:emojiImageA14 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -329px 0;
+  }
+  .emojiItemA15{
+    animation:emojiImageA15 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -352.5px 0;
+  }
+  .emojiItemA16{
+    animation:emojiImageA16 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -376px 0;
+  }
+  .emojiItemA17{
+    animation:emojiImageA17 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -399.5px 0;
+  }
+  .emojiItemA18{
+    animation:emojiImageA18 0.5s;
+    animation-fill-mode:forwards;
+    background-position:-846px 0;
+  }
+  .emojiItemA19{
+    animation:emojiImageA19 0.5s;
+    animation-fill-mode:forwards;
+    background-position: -446.5px 0;
+  }
+  
+  @keyframes emojiImageA0{
+    from {
+      background-position: 0 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: 0 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  
+  @-webkit-keyframes emojiImageA0{
+    from {
+      background-position: 0 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    }
+    
+    to {
+      background-position: 0 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA1{
+    from {
+      background-position: -23.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -47px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA2{
+    from {
+      background-position: -47 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -94px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA3{
+    from {
+      background-position: -70.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -141px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA4{
+    from {
+      background-position: -94 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -188px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA5{
+    from {
+      background-position: -117.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -235px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA6{
+    from {
+      background-position: -141 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -282px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA7{
+    from {
+      background-position: -164.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -329px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA8{
+    from {
+      background-position: -188 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -376px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA9{
+    from {
+      background-position: -211.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -423px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA10{
+    from {
+      background-position: -235 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -470px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA11{
+    from {
+      background-position: -258.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -517px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA12{
+    from {
+      background-position: -282 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -564px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA13{
+    from {
+      background-position: -305.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -611px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA14{
+    from {
+      background-position: -329 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -658px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA15{
+    from {
+      background-position: -352.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -705px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA16{
+    from {
+      background-position: -376 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -752px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA17{
+    from {
+      background-position: -399.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -799px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA18{
+    from {
+      background-position: -423 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position:-846px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
+  @keyframes emojiImageA19{
+    from {
+      background-position: -446.5 0;
+      width: 23.5px;
+      height: 18.5px;
+      background-size: 470px 18.5px;
+    
+    }
+    
+    to {
+      background-position: -893px 0;
+      width: 47px;
+      height: 37px;
+      background-size: 940px 37px;
+    
+    }
+  }
