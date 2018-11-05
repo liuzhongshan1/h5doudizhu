@@ -40,7 +40,7 @@ define("HTML_PATH", SITE_PATH . "data/runtime/Html/");
 //版本号
 define("THINKCMF_VERSION", 'X2.2.0');
 
-define("THINKCMF_CORE_TAGLIBS", 'cx,Common/Lib/Taglib/TagLibSpadmin,Common/Lib/Taglib/TagLibHome');
+define("THINKCMF_CORE_TAGLIBS", 'cx,Html,TagLibSpadmin,TagLibHome');
 
 if(function_exists('saeAutoLoader') || isset($_SERVER['HTTP_BAE_ENV_APPID'])){
 	
